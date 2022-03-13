@@ -1,0 +1,158 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{linusTechTips_pcbuilding}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b0d7ab829683308e98d3958928e3b3c}{%
+           family={{Linus Tech Tips}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{3b0d7ab829683308e98d3958928e3b3c}
+      \strng{fullhash}{3b0d7ab829683308e98d3958928e3b3c}
+      \strng{bibnamehash}{3b0d7ab829683308e98d3958928e3b3c}
+      \strng{authorbibnamehash}{3b0d7ab829683308e98d3958928e3b3c}
+      \strng{authornamehash}{3b0d7ab829683308e98d3958928e3b3c}
+      \strng{authorfullhash}{3b0d7ab829683308e98d3958928e3b3c}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{title}{I'm Bored. Build a Gaming PC with me!!}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://youtu.be/FwwgBB8l2vs
+      \endverb
+      \verb{url}
+      \verb https://youtu.be/FwwgBB8l2vs
+      \endverb
+    \endentry
+    \entry{partpickerminimum}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6a3a786e6e7d57699fdde8b92e4f9d7}{%
+           family={{Pc Part Picker}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{fullhash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{bibnamehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{authorbibnamehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{authornamehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{authorfullhash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{System Build}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pcpartpicker.com/list/f3bHhk
+      \endverb
+      \verb{url}
+      \verb https://pcpartpicker.com/list/f3bHhk
+      \endverb
+    \endentry
+    \entry{partpickermaximum}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6a3a786e6e7d57699fdde8b92e4f9d7}{%
+           family={{Pc Part Picker}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{fullhash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{bibnamehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{authorbibnamehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{authornamehash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \strng{authorfullhash}{d6a3a786e6e7d57699fdde8b92e4f9d7}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{System Build}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pcpartpicker.com/list/L2Wvnt
+      \endverb
+      \verb{url}
+      \verb https://pcpartpicker.com/list/L2Wvnt
+      \endverb
+    \endentry
+    \entry{windows11Support}{online}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=04fece2d7fb79bdea40080f8d9a37b43}{%
+           family={windows-driver-content},
+           familyi={w\bibinithyphendelim d\bibinithyphendelim c\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b705b59d76e093bf12bb913129825ef5}{%
+           family={akovarms},
+           familyi={a\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=285864b1aa810259cc42ff3203265ee9}{%
+           family={v-kents},
+           familyi={v\bibinithyphendelim k\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=436b7b47f40ab6e0169ceb242d9d1384}{%
+           family={mhopkins-msft},
+           familyi={m\bibinithyphendelim m\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=e5b85ad238650420ae24e1f60b60de7e}{%
+           family={themar-msft},
+           familyi={t\bibinithyphendelim m\bibinitperiod}}}%
+      }
+      \strng{namehash}{106aa12c4601853dedc174cff1cf2d3f}
+      \strng{fullhash}{9e7dced973b901fb5923044997d9331b}
+      \strng{bibnamehash}{9e7dced973b901fb5923044997d9331b}
+      \strng{authorbibnamehash}{9e7dced973b901fb5923044997d9331b}
+      \strng{authornamehash}{106aa12c4601853dedc174cff1cf2d3f}
+      \strng{authorfullhash}{9e7dced973b901fb5923044997d9331b}
+      \field{sortinit}{w}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Windows 11 supported AMD processors}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
