@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.3.12)  12 MAR 2022 20:36
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.3.12)  13 MAR 2022 23:50
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/xarthy/SoporteTecnico/Tarea1/Tarea1.tex
@@ -794,170 +794,178 @@ LaTeX Info: Redefining \nameref on input line 34.
 File: ./Images/UNA.png Graphic file (type png)
 <use ./Images/UNA.png>
 Package luatex.def Info: ./Images/UNA.png  used on input line 44.
-(luatex.def)             Requested size: 180.79724pt x 181.51462pt.
+(luatex.def)             Requested size: 155.99762pt x 156.61705pt.
  [1
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./Images/UNA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-|[]\TU/Arial(0)/b/n/17.28 Com-po-nen-tes de la
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 57--57
-|[]\TU/Arial(0)/b/n/14.4 Lis-ta de com-po-nen-tes y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\TU/Arial(0)/m/n/12 Dual-Core OEM/Tray Pro-ces-sor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-[]\TU/Arial(0)/m/n/12 Zal-man CNPS80F CPU Co-oler
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 62--63
-[]\TU/Arial(0)/m/n/12 MSI G41M4-F Mi-cro ATX LGA775
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 72--73
-[]\TU/Arial(0)/m/n/12 Ver-ba-tim 98618 Mi-ni Tra-vel Mou-
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 76--76
-|[]\TU/Arial(0)/b/n/14.4 Lis-ta de com-po-nen-tes y
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 82--83
-[]\TU/Arial(0)/m/n/12 Asus ROG ZE-NITH II EX-TRE-ME
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 82--83
-\TU/Arial(0)/m/n/12 ALP-HA EATX sTRX4 Mot-her-board
- []
-
-
-Overfull \vbox (15.58354pt too high) has occurred while \output is active []
-
-
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
-]
-Underfull \hbox (badness 1655) in paragraph at lines 87--88
-[]\TU/Arial(0)/m/n/12 Cor-sair AX 1000 W 80+ Ti-ta-nium
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 93--94
-[]\TU/Arial(0)/m/n/12 Dell UP3216Q 31.5”3840x2160 60
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 94--95
-\TU/Arial(0)/m/n/12 less Stan-dard Key-boad with La-se
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 96--97
-[]\TU/Arial(0)/m/n/12 Lo-gi-tech THX Z-5300e 280 W 5.1
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 100--100
-|[]\TU/Arial(0)/b/n/14.4 Lis-ta de com-po-nen-tes y
+[1]
+Overfull \hbox (3.61975pt too wide) in paragraph at lines 69--70
+[]\TU/Arial(0)/b/n/12 NVI-DIA Ge-For-ce RTX 3080 Ti 12 GB Foun-ders Edi-tion Vi-deo Card:
  []
 
 [2]
-<./Images/Minimal.png, id=52, 950.80219pt x 1903.11pt>
+Overfull \hbox (15.62671pt too wide) in paragraph at lines 74--75
+[]\TU/Arial(0)/b/n/12 TREND-net TEW-64UBM USB 2.0 802.11a/b/g/n Wi-Fi Adap-ter: $8.36\TU/Arial(0)/m/n/12 ,
+ []
+
+
+Overfull \hbox (0.10913pt too wide) in paragraph at lines 75--76
+[]\TU/Arial(0)/b/n/12 Co-oler Mas-ter Mas-ter-Fan MF ha-lo 47.2 CFM 120mm Fans 3-Pack:
+ []
+
+<./Images/Minimal.png, id=75, 950.80219pt x 1903.11pt>
 File: ./Images/Minimal.png Graphic file (type png)
 <use ./Images/Minimal.png>
-Package luatex.def Info: ./Images/Minimal.png  used on input line 107.
-(luatex.def)             Requested size: 271.20276pt x 542.82758pt.
-<./Images/Maximum.png, id=53, 1143.52219pt x 2405.23593pt>
+Package luatex.def Info: ./Images/Minimal.png  used on input line 85.
+(luatex.def)             Requested size: 234.00238pt x 468.37137pt.
+<./Images/Maximum.png, id=76, 1143.52219pt x 2405.23593pt>
 File: ./Images/Maximum.png Graphic file (type png)
 <use ./Images/Maximum.png>
-Package luatex.def Info: ./Images/Maximum.png  used on input line 109.
-(luatex.def)             Requested size: 271.20276pt x 570.44206pt.
+Package luatex.def Info: ./Images/Maximum.png  used on input line 87.
+(luatex.def)             Requested size: 234.00238pt x 492.15904pt.
+<./Images/BuildReduxIdeal.png, id=77, 526.96875pt x 371.88937pt>
+File: ./Images/BuildReduxIdeal.png Graphic file (type png)
+<use ./Images/BuildReduxIdeal.png>
+Package luatex.def Info: ./Images/BuildReduxIdeal.png  used on input line 89.
+(luatex.def)             Requested size: 467.99881pt x 330.2882pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
 
- [3
-
-<./Images/Minimal.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4<./Images/Maximum.png>] [5]
-Underfull \hbox (badness 2221) in paragraph at lines 111--111
-|[]\TU/Arial(0)/b/n/17.28 Pa-sos pa-ra ar-mar la
  []
 
 
-Overfull \vbox (2.48523pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
 
- [6
+ []
 
-]
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
+ []
+
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 83--89
+[] 
+ []
+
+[3] [4<./Images/Minimal.png>] [5<./Images/Maximum.png>] [6<./Images/BuildReduxIdeal.png>]
+<./Images/Ideal.png, id=104, 1143.52219pt x 2191.4372pt>
+File: ./Images/Ideal.png Graphic file (type png)
+<use ./Images/Ideal.png>
+Package luatex.def Info: ./Images/Ideal.png  used on input line 91.
+(luatex.def)             Requested size: 234.00238pt x 448.41158pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
+
+[7<./Images/Ideal.png>] [8] [9] [10]
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 135.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 116.
+(Font)              <12> on input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 116.
+(Font)              <8> on input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 116.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
- [7
+(Font)              <6> on input line 135.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Overfull \hbox (6.1873pt too wide) in paragraph at lines 136--136
+[][]\TU/Arial(0)/m/n/12 Al-corn, P. (2022). \TU/Arial(0)/m/it/12 Best CPU for Ga-ming in 2022\TU/Arial(0)/m/n/12 . []$https : / / www . tomshardware .
+ []
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 135.
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 135.
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 135.
+
+
+Overfull \hbox (86.9182pt too wide) in paragraph at lines 136--136
+\TU/Arial(0)/m/n/12 www . youtube . com / watch ? v = qkIpTWIiuI4 & list = TLPQMTQwMzIwMjLktAzleRmDsg &
+ []
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 135.
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 135.
+
+
+Overfull \hbox (18.30061pt too wide) in paragraph at lines 136--136
+\TU/Arial(0)/m/n/12 (2021). \TU/Arial(0)/m/it/12 Win-dows 11 sup-por-ted AMD pro-ces-sors\TU/Arial(0)/m/n/12 . []$https : / / docs . microsoft .
+ []
+
+
+Overfull \hbox (6.28734pt too wide) in paragraph at lines 136--136
+\TU/Arial(0)/m/n/12 com / en - us / windows - hardware / design / minimum / supported / windows -
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (/home/xarthy/SoporteTecnico/Tarea1/Tarea1.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `Tarea1.out' has not changed.
-(rerunfilecheck)             Checksum: 157E32D8C65501BD999F41A3D5AD0D1B;1506.
+(rerunfilecheck)             Checksum: 890DC85AEADE1C52F22A6A040A33EBC0;1221.
 Package logreq Info: Writing requests to 'Tarea1.run.xml'.
 
 \openout1 = Tarea1.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 21197 strings out of 481365
+ 21308 strings out of 481365
  100000,1373583 words of node,token memory allocated
- 546 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 11 attribute, 65 glue_spec, 7 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:499,3:380,4:13,5:46,6:76,7:6865,8:118,9:528,10:12,11:609
- 37664 multiletter control sequences out of 65536+600000
+ 654 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 29 attribute, 65 glue_spec, 16 attribute_list, 1 write, 11 pdf_action nodes
+   avail lists: 1:1,2:694,3:296,4:24,5:41,6:14,7:3023,8:134,9:108,10:16,11:330
+ 37709 multiletter control sequences out of 65536+600000
  55 fonts using 7747163 bytes
- 43i,4n,70p,876b,2607s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 43i,4n,70p,1010b,2607s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf></usr/share/fonts/truetype/msttcorefonts/Arial.ttf></usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf>
-Output written on Tarea1.pdf (8 pages, 646759 bytes).
+Output written on Tarea1.pdf (12 pages, 1040308 bytes).
 
-PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 131072)
+PDF statistics: 211 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
+ 70 named destinations out of 1000 (max. 131072)
  49 words of extra memory for PDF output out of 10000 (max. 100000000)
 

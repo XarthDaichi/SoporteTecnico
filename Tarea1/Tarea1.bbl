@@ -19,7 +19,158 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{linusTechTips_pcbuilding}{online}{}
+    \entry{bestCPUS2022}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9adcabb51117dff47fecd99b32a13ea1}{%
+           family={Alcorn},
+           familyi={A\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9adcabb51117dff47fecd99b32a13ea1}
+      \strng{fullhash}{9adcabb51117dff47fecd99b32a13ea1}
+      \strng{bibnamehash}{9adcabb51117dff47fecd99b32a13ea1}
+      \strng{authorbibnamehash}{9adcabb51117dff47fecd99b32a13ea1}
+      \strng{authornamehash}{9adcabb51117dff47fecd99b32a13ea1}
+      \strng{authorfullhash}{9adcabb51117dff47fecd99b32a13ea1}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{Best CPU for Gaming in 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.tomshardware.com/reviews/best-cpus,3986.html
+      \endverb
+      \verb{url}
+      \verb https://www.tomshardware.com/reviews/best-cpus,3986.html
+      \endverb
+    \endentry
+    \entry{NecessaryDrivers}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7a6d3723808b90c960ef2eb2bdd56a1}{%
+           family={Branton},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7a6d3723808b90c960ef2eb2bdd56a1}
+      \strng{fullhash}{b7a6d3723808b90c960ef2eb2bdd56a1}
+      \strng{bibnamehash}{b7a6d3723808b90c960ef2eb2bdd56a1}
+      \strng{authorbibnamehash}{b7a6d3723808b90c960ef2eb2bdd56a1}
+      \strng{authornamehash}{b7a6d3723808b90c960ef2eb2bdd56a1}
+      \strng{authorfullhash}{b7a6d3723808b90c960ef2eb2bdd56a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{What drivers do you need for a new PC build?}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pcgamehaven.com/what-drivers-do-you-need-new-pc-build/
+      \endverb
+      \verb{url}
+      \verb https://pcgamehaven.com/what-drivers-do-you-need-new-pc-build/
+      \endverb
+    \endentry
+    \entry{buildredux}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a875daf202293a8c0bcdb4f2baad7605}{%
+           family={{Build Redux}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a875daf202293a8c0bcdb4f2baad7605}
+      \strng{fullhash}{a875daf202293a8c0bcdb4f2baad7605}
+      \strng{bibnamehash}{a875daf202293a8c0bcdb4f2baad7605}
+      \strng{authorbibnamehash}{a875daf202293a8c0bcdb4f2baad7605}
+      \strng{authornamehash}{a875daf202293a8c0bcdb4f2baad7605}
+      \strng{authorfullhash}{a875daf202293a8c0bcdb4f2baad7605}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{Your Recommended Build}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://buildredux.com/pages/build-your-pc
+      \endverb
+      \verb{url}
+      \verb https://buildredux.com/pages/build-your-pc
+      \endverb
+    \endentry
+    \entry{bestMonitors2022}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c2c598ea47dc39909f2b3245dfaea50}{%
+           family={Eberle},
+           familyi={E\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c2c598ea47dc39909f2b3245dfaea50}
+      \strng{fullhash}{0c2c598ea47dc39909f2b3245dfaea50}
+      \strng{bibnamehash}{0c2c598ea47dc39909f2b3245dfaea50}
+      \strng{authorbibnamehash}{0c2c598ea47dc39909f2b3245dfaea50}
+      \strng{authornamehash}{0c2c598ea47dc39909f2b3245dfaea50}
+      \strng{authorfullhash}{0c2c598ea47dc39909f2b3245dfaea50}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{Best Gaming Monitors 2022: Budget, Curved, G-Sync and More}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html
+      \endverb
+      \verb{url}
+      \verb https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html
+      \endverb
+    \endentry
+    \entry{graphicsCardNecessary}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd0b3949e3e5ef3efb36173418d1e9a2}{%
+           family={Electrobot},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd0b3949e3e5ef3efb36173418d1e9a2}
+      \strng{fullhash}{fd0b3949e3e5ef3efb36173418d1e9a2}
+      \strng{bibnamehash}{fd0b3949e3e5ef3efb36173418d1e9a2}
+      \strng{authorbibnamehash}{fd0b3949e3e5ef3efb36173418d1e9a2}
+      \strng{authornamehash}{fd0b3949e3e5ef3efb36173418d1e9a2}
+      \strng{authorfullhash}{fd0b3949e3e5ef3efb36173418d1e9a2}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{Do your computer needs a Graphics Card?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://electrobot.co.in/blog/do-your-computer-needs-a-graphics-card/
+      \endverb
+      \verb{url}
+      \verb https://electrobot.co.in/blog/do-your-computer-needs-a-graphics-card/
+      \endverb
+    \endentry
+    \entry{linusTechTips_pcbuildingGuide}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3b0d7ab829683308e98d3958928e3b3c}{%
            family={{Linus Tech Tips}},
@@ -41,14 +192,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{05}
-      \field{title}{I'm Bored. Build a Gaming PC with me!!}
+      \field{month}{04}
+      \field{title}{ULTIMATE RGB PC Build Guide 2021}
       \field{year}{2021}
       \verb{urlraw}
-      \verb https://youtu.be/FwwgBB8l2vs
+      \verb https://www.youtube.com/watch?v=qkIpTWIiuI4&list=TLPQMTQwMzIwMjLktAzleRmDsg&index=5
       \endverb
       \verb{url}
-      \verb https://youtu.be/FwwgBB8l2vs
+      \verb https://www.youtube.com/watch?v=qkIpTWIiuI4&list=TLPQMTQwMzIwMjLktAzleRmDsg&index=5
       \endverb
     \endentry
     \entry{partpickerminimum}{online}{}
@@ -109,6 +260,96 @@
       \endverb
       \verb{url}
       \verb https://pcpartpicker.com/list/L2Wvnt
+      \endverb
+    \endentry
+    \entry{bestKeyboards2022}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b17984587cf921b0d4b3f64541b6eb85}{%
+           family={Ridley},
+           familyi={R\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4621a7dde1f61260d71c28b665d32571}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a762528114a41841cc0d75cf1b92c80}
+      \strng{fullhash}{8a762528114a41841cc0d75cf1b92c80}
+      \strng{bibnamehash}{8a762528114a41841cc0d75cf1b92c80}
+      \strng{authorbibnamehash}{8a762528114a41841cc0d75cf1b92c80}
+      \strng{authornamehash}{8a762528114a41841cc0d75cf1b92c80}
+      \strng{authorfullhash}{8a762528114a41841cc0d75cf1b92c80}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{Best gaming keyboards in 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.pcgamer.com/best-gaming-keyboard/
+      \endverb
+      \verb{url}
+      \verb https://www.pcgamer.com/best-gaming-keyboard/
+      \endverb
+    \endentry
+    \entry{bestMouses2022}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b17984587cf921b0d4b3f64541b6eb85}{%
+           family={Ridley},
+           familyi={R\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7caee0265971cfbce3993f6381ccc0dd}{%
+           family={Jimenez},
+           familyi={J\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5574474321c4b8b060c5398ffd8282d7}
+      \strng{fullhash}{5574474321c4b8b060c5398ffd8282d7}
+      \strng{bibnamehash}{5574474321c4b8b060c5398ffd8282d7}
+      \strng{authorbibnamehash}{5574474321c4b8b060c5398ffd8282d7}
+      \strng{authornamehash}{5574474321c4b8b060c5398ffd8282d7}
+      \strng{authorfullhash}{5574474321c4b8b060c5398ffd8282d7}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{The best gaming mouse in 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.pcgamer.com/the-best-gaming-mouse/
+      \endverb
+      \verb{url}
+      \verb https://www.pcgamer.com/the-best-gaming-mouse/
+      \endverb
+    \endentry
+    \entry{soundcardNecessary}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{title}{What is a soundcard and why do we use them?}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.cambridgeaudio.com/usa/en/blog/bypass-your-soundcard
+      \endverb
+      \verb{url}
+      \verb https://www.cambridgeaudio.com/usa/en/blog/bypass-your-soundcard
       \endverb
     \endentry
     \entry{windows11Support}{online}{}

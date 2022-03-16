@@ -203,6 +203,12 @@ INPUT ./Images/Minimal.png
 INPUT /home/xarthy/SoporteTecnico/Tarea1/./Images/Maximum.png
 INPUT /home/xarthy/SoporteTecnico/Tarea1/./Images/Maximum.png
 INPUT ./Images/Maximum.png
+INPUT /home/xarthy/SoporteTecnico/Tarea1/./Images/BuildReduxIdeal.png
+INPUT /home/xarthy/SoporteTecnico/Tarea1/./Images/BuildReduxIdeal.png
+INPUT ./Images/BuildReduxIdeal.png
+INPUT /home/xarthy/SoporteTecnico/Tarea1/./Images/Ideal.png
+INPUT /home/xarthy/SoporteTecnico/Tarea1/./Images/Ideal.png
+INPUT ./Images/Ideal.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm

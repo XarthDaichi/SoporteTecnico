@@ -2560,8 +2560,16 @@
   <bcf:section number="0">
     <bcf:citekey order="1">partpickerminimum</bcf:citekey>
     <bcf:citekey order="2">partpickermaximum</bcf:citekey>
-    <bcf:citekey order="3">windows11Support</bcf:citekey>
-    <bcf:citekey order="4">linusTechTips_pcbuilding</bcf:citekey>
+    <bcf:citekey order="3">graphicsCardNecessary</bcf:citekey>
+    <bcf:citekey order="4">soundcardNecessary</bcf:citekey>
+    <bcf:citekey order="5">windows11Support</bcf:citekey>
+    <bcf:citekey order="6">buildredux</bcf:citekey>
+    <bcf:citekey order="7">bestCPUS2022</bcf:citekey>
+    <bcf:citekey order="8">bestMonitors2022</bcf:citekey>
+    <bcf:citekey order="9">bestKeyboards2022</bcf:citekey>
+    <bcf:citekey order="10">bestMouses2022</bcf:citekey>
+    <bcf:citekey order="11">linusTechTips_pcbuildingGuide</bcf:citekey>
+    <bcf:citekey order="12">NecessaryDrivers</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
