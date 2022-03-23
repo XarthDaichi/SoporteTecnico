@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{Doc-Start}%
+\contentsline {section}{Parte 1 (Ejercicios de resistencia, voltaje e intensidad)}{1}{Doc-Start}%
+\contentsline {subsection}{Ejercicio 1}{1}{section*.1}%
+\contentsline {subsection}{Ejercicio 2}{1}{section*.1}%
+\contentsline {subsection}{Ejercicio 3}{1}{section*.1}%
+\contentsline {subsection}{Ejercicio 4}{2}{section*.1}%
+\contentsline {subsection}{Ejercicio 5}{2}{section*.1}%
+\contentsline {section}{Parte 2 (Resumen de video de Electrónica Analógica y Digital)}{2}{section*.1}%
+\contentsline {section}{Conclusión}{5}{Item.2}%
+\contentsline {section}{\large \textbf {Referencias}}{6}{section*.2}%
