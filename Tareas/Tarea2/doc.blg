@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: doc.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ref.bib
+Warning--entry type for "fotorresistencia" isn't style-file defined
+--line 1 of file ref.bib
+Warning--entry type for "videoTemporizador" isn't style-file defined
+--line 9 of file ref.bib
+Warning--entry type for "temporizadorDef" isn't style-file defined
+--line 18 of file ref.bib
+Warning--entry type for "tinkercad" isn't style-file defined
+--line 27 of file ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 4 entries,
+            6951 wiz_defined-function locations,
+            1295 strings with 11354 characters,
+and the built_in function-call counts, 7433 in all, are:
+= -- 1097
+> -- 20
+< -- 296
++ -- 272
+- -- 6
+* -- 379
+:= -- 1181
+add.period$ -- 15
+call.type$ -- 4
+change.case$ -- 74
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 114
+empty$ -- 316
+format.name$ -- 28
+if$ -- 1551
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 81
+num.names$ -- 16
+pop$ -- 85
+preamble$ -- 1
+purify$ -- 22
+quote$ -- 0
+skip$ -- 725
+stack$ -- 0
+substring$ -- 287
+swap$ -- 55
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 656
+warning$ -- 0
+while$ -- 22
+width$ -- 0
+write$ -- 92
+(There were 4 warnings)

@@ -1,0 +1,136 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Laboratorio \#6\\
+    \vskip2cm
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    15 de mayo, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+\section*{Introducción}
+\phantomsection
+\addcontentsline{toc}{section}{Introducción}
+
+%------------------------------------------------------------------------------------
+\section*{Preguntas}
+\phantomsection
+\addcontentsline{toc}{section}{Pregutnas}
+
+\begin{enumerate}
+    \item ¿Qué es el sector de arranque o MBR? (Master Boot Record).
+    
+
+    
+    \item Según la evolución del almacenamiento, explique las tecnologías
+    \begin{enumerate}
+        \item PMR o CMR
+        \item SMR
+        \item HAMR
+        \item BPMR
+    \end{enumerate}
+    \item ¿En qué unidad se mide la velocidad de los discos duros y cuáles son las velocidades más comunes actualmente?
+    \item Indique las diferencias entre SATA 1, SATA 2 y SATA 3
+    \item ¿Qué es RAID (\textit{Redundant Array of Independent Disks}), es decir, "conjunto redundante de discos independientes"?. Explique los tipos de RAID:
+    \begin{enumerate}
+        \item RAID 0
+        \item RAID 1
+        \item RAID 5
+        \item RAID 6
+        \item RAID 10
+    \end{enumerate}
+    \item ¿Cómo se hace para conectar un disco maestro y otro esclavo cuando se tienen discos PATA? ¿Cómo se colocan los jumpers?
+    \item Describa los pasos para particionar un disco desde Windows. Cite aplicaciones para hacer particionando
+    \item ¿Cuáles son los pasos para desfragmentar un disco duro?
+    \item Explique los pasos para formatear un disco
+    \item Explique brevemente las siguientes características del disco
+    \begin{enumerate}
+        \item Tiempo medio de acceso
+        \item Tiempo de lectura/escritura
+        \item Tiempo medio de búsqueda
+        \item Latencia Media
+        \item Velocidad de rotación
+        \item Tasa de transferencia
+    \end{enumerate}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section*{Conclusión}
+\phantomsection
+\addcontentsline{toc}{section}{Conclusión}
+\cite{cervantes1999}
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{ref}
+
+\end{document}

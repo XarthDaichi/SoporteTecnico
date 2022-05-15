@@ -1,0 +1,179 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Laboratorio \#5\\
+    \vskip2cm
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    07 de mayo, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+\section*{Introducción}
+\phantomsection
+\addcontentsline{toc}{section}{Introducción}
+En este laboratorio se van a ver diferentes aspectos de la CPU, de diferentes tipos de dispositivos. Se van a ver problemas, benchmarking, overclocking y otros aspectos importantes.
+
+%------------------------------------------------------------------------------------
+\section*{Parte 1 - Identificar el procesador de la computadora y de qué generación es}
+\phantomsection
+\addcontentsline{toc}{section}{Parte 1 - Identificar el procesador de la computadora y de qué generación es}
+
+\begin{enumerate}
+    \item Identificar el SO de la computadora: Windows 11 Home, versión 21H2, build del sistema operativo: 22000.652
+    \item ¿Cómo identificó el SO de la computadora? ¿Cuáles pasos siguió?
+    \begin{enumerate}
+        \item Abrir settings
+        \item Buscar about
+        \item En la parte de Windows specification aparece la información del sistema operativo
+        \item En una windows también se puede obtener la versión de windows buscando winver en el buscador de windows
+    \end{enumerate}
+    \item ¿Cuál es el procesador de su computadora?: Intel(R) Core(TM) i7-8550U CPU
+    \item ¿De cuál generación es? ¿Cómo descubrió la generación?: i7 de octava generación, lo sé por el 8 después del i7 en el device specification en la parte del about en settings y el sticker en mi computadora.
+    \item ¿Cuál es la velocidad? 1.80 GHz, dice que velocidad base es 1.99GHz (nombre en device specification y task manager)
+    \item ¿Qué tipo de sistema tiene x64 o x86?: El tipo de sistema es x64, con un sistema operativo de 64-bit. (Device specifications en settings)
+    \item ¿Cuántos núcleos tiene? Tiene 4 núcleos
+    \item ¿Cuántos hilos tiene? Tiene 8 hilos
+    \item En promedio ¿cuál es la velocidad de los núcleos? Según Speccy entre los cuatro núcleos tienen una velocidad que puede bajar hasta 797 MHz y subir hasta 3590 MHz, que es un promedio de 2193.5 MHz
+    \item En promedio ¿cuál es la velocidad del bus? Según Speccy la velocidad de bus es constante 99.7 MHz en los cuatro núcleos
+\end{enumerate}
+
+
+%------------------------------------------------------------------------------------
+\section*{Parte 2 - Investigación}
+\phantomsection
+\addcontentsline{toc}{section}{Parte 2 - Investigación}
+
+\begin{enumerate}
+    \item Indique y explique 3 posibles problemas puede presentar una computadora si el procesador está dañado. Según \cite{CPUFallos} los siguientes errores pueden significar un daño de la CPU:
+    \begin{itemize}
+        \item Si el procesador está dañado la computadora no va a arrancar correctamente, solo se va a ver un monitor en blanco y tal vez los abanicos prendidos, y no van a haber tonos porque el POST no va a hacerse. Si los LED's de la tarjeta madre se prenden y no hay tonos es un indicador de que el CPU está dañado.
+        \item Si la computadora se empieza a trabar constantemente, como por ejemplo justo al haber entrado al sistema operativo.
+        \item Si aparece un pantallazo azul con el código 0x00000, significa un error de CPU. 
+        \item (Extra) Si la computadora se apaga frecuentemente, puede significar que los abanicos están tapados y la temperatura está muy alta entonces para prevenir más daño al CPU la tarjeta madre se apaga.
+        \item (Extra) Si el CPU se encuentra en mal estado entonces va a sonar unos tonos normalmente 5-7 veces.
+        \item (Extra) Si el CPU se expone a una temperatura muy alta entonces se puede ver el zócalo un poco quemado.
+    \end{itemize}
+    \item ¿Cómo se comprueba el rendimiento y la temperatura del CPU? El rendimiento de la CPU se puede hacer a través de benchmarks, que son como pruebas que corren para varios aspectos de la computadora a la hora de hacer tareas muy pesadas. Esto deja que personas como \cite{gamersNexusBenchmarks} que hagan pruebas para CPU's del mercado. Según \cite{redditBenchmarks} los mejores benchmarks para poder ver temperaturas y rendimiento en CPU y tarjeta gráfica son MSI Afterburner y 3DMark, pero hay muchísimos más benchmarks que se pueden usar. Para verificar la temperatura y rendimiento del momento en Windows se puede hacer en el task manager.
+    \item ¿Qué es overclock? ¿Cuáles son los pasos? Según lo describen en un video de Linus Tech Tips (\cite{OverclockingLTT}) overclock es una manera de modificar el hardware para que trabaje más rápido a costo de posibles fallos y expectativa de vida del hardware, específicamente mencionan sobre el procesador y la tarjeta gráfica, pero en otro video le hicieron overclock a varios componentes de la computadora (\cite{Tips2018Jun}). Según \cite{InsiderOverclockGuide} los pasos para overclock el CPU son:
+    \begin{enumerate}
+        \item Verificar si la CPU y la tarjeta madre pueden hacer overclock
+        \item Limpiar la computadora (recomiendan usar un brazalete antiestática)
+        \item Verificar la temperatura actual de la computadora (importante saber que normalmente las computadoras trabajan duro con una temperatura de 170\degree F o 77\degree C, pero que si al estar en un estado IDLE está por encima de 175\degree F o 79\degree C el overclock puede dañar el CPU)
+        \item Verificar el uso del CPU (se puede usar task manager en windows), si constantemente está usando 100\% entonces no es recomendable overclock
+        \item Benchmark para ver el rendimiento de la CPU (recomiendan CineBench en el video) esto da un buen estimado de como se comporta y se usara para comparar los resultados después del resultado.
+        \item Apagar la computadora
+        \item Volver a prender y entrar al BIOS
+        \item Navegar al menú del procesador
+        \item Localizar el multiplicador del CPU
+        \item Incrementar el multiplicador por cuanto quiera
+        \item Repetir los pasos e-j hasta obtener resultado que prefiere en el benchmarks, si la computadora le da un pantallazo azul o negro vuelva a entrar al BIOS y baje el multiplicador.
+        \item En el BIOS cambiar el voltaje
+        \item Repetir el paso e - l hasta obtener resultados preferido.
+    \end{enumerate}
+    \item Investigar la importancia de actualizar el BIOS al colocar un procesador nuevo en la computadora. Según \cite{updateBIOS} hay tres razones importantes por las cuales actualizar el BIOS:
+    \begin{enumerate}
+        \item Deja que la tarjeta madre reconozca el hardware nuevo, si le hizo un upgrade al procesador y el BIOS no lo reconoce actualizarlo puede ser la solución.
+        \item Las actualizaciones de BIOS traen actualizaciones de seguridad que hacen más difícil que accedan y cambien configuraciones algún programa no deseado
+        \item Las actualizaciones del BIOS traen mayor estabilidad, en especial conforme van saliendo más errores y soluciones entonces actualizar el BIOS es preferible
+    \end{enumerate}
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+\section*{Parte 3 - Identificar el procesador del teléfono celular}
+\phantomsection
+\addcontentsline{toc}{section}{Parte 3 - Identificar el procesador del teléfono celular}
+
+\begin{enumerate}
+    \item Descargar CPU-Z para Android o AIDA64 para iOS (pueden usar otros programas)
+    \item ¿Cuál es el procesador de su celular? HiSilicon Kirin 970 2.36 GHz
+    \item ¿Cuántos núcleos tiene? 8 núcleos
+    \item ¿Qué arquitectura tiene? 4x ARM Cortex-A73 @ 2.36 GHz y 4x ARM Cortex-A53 @ 1.84 GHz
+    \item ¿Encontró otra información importante? Indíquelo aquí
+    \begin{itemize}
+        \item Versión de android 8.1.0
+        \item Arquitectura de kernel: aarch64, descubrí que al menos en mi caso está basado en Arch linux lo cual me parece interesante porque mi tipo de distribuciones favoritas son las basadas en Arch.
+    \end{itemize}
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section*{Conclusión}
+\phantomsection
+\addcontentsline{toc}{section}{Conclusión}
+En este laboratorio se aprendió como revisar diferentes aspectos sobre el procesador (CPU) de tanto una computadora como de un celular. Además se reconoció problemas que puede causar una CPU en mal estado, como verificar el rendimiento y temperatura del CPU en diferentes circunstancias, el overclock y como hacerlo y el BIOS en conjunto con un upgrade o remplazo de CPU.
+
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{ref}
+
+\end{document}

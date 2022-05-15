@@ -1,0 +1,108 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}%
+}{%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}%
+}{%
+{\protect \APACyear {2021}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+CompuertaLogicaAND}
+\APACinsertmetastar {%
+CompuertaLogicaAND}%
+\begin{APACrefauthors}%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021{\protect \BCnt {1}}}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Compuerta AND}} {{Compuerta AND}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica
+  LATAM}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.mecatronicalatam.com/es/tutoriales/electronica/compuertas-logicas/compuerta-and}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}%
+}{%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}%
+}{%
+{\protect \APACyear {2021}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+CompuertaLogicaNOT}
+\APACinsertmetastar {%
+CompuertaLogicaNOT}%
+\begin{APACrefauthors}%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021{\protect \BCnt {2}}}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Compuerta NOT}} {{Compuerta NOT}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica
+  LATAM}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.mecatronicalatam.com/es/tutoriales/electronica/compuertas-logicas/compuerta-not}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}%
+}{%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}%
+}{%
+{\protect \APACyear {2021}}%
+{\protect \APACexlab {{\protect \BCnt {3}}}}}]{%
+CompuertaLogicaOR}
+\APACinsertmetastar {%
+CompuertaLogicaOR}%
+\begin{APACrefauthors}%
+{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica LATAM}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021{\protect \BCnt {3}}}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Compuerta OR}} {{Compuerta OR}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mecatr{\ifmmode\acute{o}\else\'{o}\fi}nica
+  LATAM}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.mecatronicalatam.com/es/tutoriales/electronica/compuertas-logicas/compuerta-or}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Quirós Artiñano}%
+}{%
+{Quirós Artiñano}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+circuits}
+\APACinsertmetastar {%
+circuits}%
+\begin{APACrefauthors}%
+{Quirós Artiñano}, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Brilliant Elzing-Rottis.} {Brilliant elzing-rottis.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.tinkercad.com/things/hNS4QnUnPVb-brilliant-elzing-rottis/editel?sharecode=XHiyosYHuZEGT3Zxtmk2H_etSq8BBXm-qksqIHDR9Ms}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

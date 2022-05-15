@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{section*.1}%
+\contentsline {section}{Chipset}{1}{section*.2}%
+\contentsline {section}{BIOS}{2}{section*.5}%
+\contentsline {section}{Simulador BIOS}{2}{section*.6}%
+\contentsline {section}{Códigos de error}{5}{section*.7}%
+\contentsline {section}{Conclusión}{6}{section*.9}%
+\contentsline {section}{\large \textbf {Referencias}}{7}{section*.10}%

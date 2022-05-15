@@ -1,0 +1,187 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Burke%
+}{%
+Burke%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+gamersNexusBenchmarks}
+\APACinsertmetastar {%
+gamersNexusBenchmarks}%
+\begin{APACrefauthors}%
+Burke, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\APACrefbtitle {{Best CPUs of 2020 So Far (Gaming, Workstation, Overclocking
+  Round-Up)}.} {{Best CPUs of 2020 So Far (Gaming, Workstation, Overclocking
+  Round-Up)}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.gamersnexus.net/guides/3589-best-cpus-of-2020-so-far-gaming-production-overclocking-budget}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{The Importance of Updating the BIOS {$\vert$} CompTIA A+ Exam
+  Cram: Flashing the BIOS {$\vert$} Pearson IT Certification}}}{%
+\APACcitebtitle {{The Importance of Updating the BIOS {$\vert$} CompTIA A+ Exam
+  Cram: Flashing the BIOS {$\vert$} Pearson IT Certification}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+updateBIOS}
+\APACinsertmetastar {%
+updateBIOS}%
+\APACrefbtitle {{The Importance of Updating the BIOS {$\vert$} CompTIA A+ Exam
+  Cram: Flashing the BIOS {$\vert$} Pearson IT Certification}.} {{The
+  Importance of Updating the BIOS {$\vert$} CompTIA A+ Exam Cram: Flashing the
+  BIOS {$\vert$} Pearson IT Certification}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.pearsonitcertification.com/articles/article.aspx?p=1675145&seqNum=3}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Insider%
+}{%
+Insider%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+InsiderOverclockGuide}
+\APACinsertmetastar {%
+InsiderOverclockGuide}%
+\begin{APACrefauthors}%
+Insider, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{07}}}{}.
+\newblock
+\APACrefbtitle {{How To Overclock A CPU}.} {{How To Overclock A CPU}.}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL} \url{https://www.youtube.com/watch?v=dJMDB3PjBw8}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{r/buildapc - Temperature tests and benchmarks!?}}}{%
+\APACcitebtitle {{r/buildapc - Temperature tests and benchmarks!?}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+redditBenchmarks}
+\APACinsertmetastar {%
+redditBenchmarks}%
+\APACrefbtitle {{r/buildapc - Temperature tests and benchmarks!?}} {{r/buildapc
+  - Temperature tests and benchmarks!?}}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.reddit.com/r/buildapc/comments/6lms5q/temperature_tests_and_benchmarks}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roomi%
+}{%
+Roomi%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+CPUFallos}
+\APACinsertmetastar {%
+CPUFallos}%
+\begin{APACrefauthors}%
+Roomi, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {{6 Signs of CPU Failure {$\vert$} CPU (Processor) Failure
+  Symptoms}.} {{6 Signs of CPU Failure {$\vert$} CPU (Processor) Failure
+  Symptoms}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.hitechwhizz.com/2020/06/6-signs-of-cpu-failure-processor-failure-symptoms.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Techquickie%
+}{%
+Techquickie%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+OverclockingLTT}
+\APACinsertmetastar {%
+OverclockingLTT}%
+\begin{APACrefauthors}%
+Techquickie.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{{\APACmonth{09}}}{}.
+\newblock
+\APACrefbtitle {{Is Overclocking Worth It?}} {{Is Overclocking Worth It?}}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.youtube.com/watch?v=yyv9Y2miV64&list=TLPQMDkwNTIwMjJK_VJqc7OJfQ&index=2}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tips%
+}{%
+Tips%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Tips2018Jun}
+\APACinsertmetastar {%
+Tips2018Jun}%
+\begin{APACrefauthors}%
+Tips, L\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{06}}}{}.
+\newblock
+\APACrefbtitle {{We Overclocked EVERYTHING - Even the FANS!}} {{We Overclocked
+  EVERYTHING - Even the FANS!}}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.youtube.com/watch?v=6hoVDburJ-I&list=TLPQMDkwNTIwMjJK_VJqc7OJfQ&index=4}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 8. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

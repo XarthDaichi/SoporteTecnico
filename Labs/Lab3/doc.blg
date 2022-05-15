@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: doc.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ref.bib
+Warning--entry type for "circuits" isn't style-file defined
+--line 31 of file ref.bib
+Warning--string name "april" is undefined
+--line 35 of file ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 4 entries,
+            6951 wiz_defined-function locations,
+            1288 strings with 11348 characters,
+and the built_in function-call counts, 5495 in all, are:
+= -- 736
+> -- 42
+< -- 152
++ -- 107
+- -- 16
+* -- 289
+:= -- 790
+add.period$ -- 16
+call.type$ -- 4
+change.case$ -- 98
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 130
+empty$ -- 300
+format.name$ -- 56
+if$ -- 1207
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 0
+newline$ -- 97
+num.names$ -- 32
+pop$ -- 91
+preamble$ -- 1
+purify$ -- 22
+quote$ -- 0
+skip$ -- 542
+stack$ -- 0
+substring$ -- 123
+swap$ -- 78
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 392
+warning$ -- 0
+while$ -- 26
+width$ -- 0
+write$ -- 104
+(There were 2 warnings)

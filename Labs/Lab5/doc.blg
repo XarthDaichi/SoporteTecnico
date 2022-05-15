@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: doc.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ref.bib
+Warning--entry type for "CPUFallos" isn't style-file defined
+--line 15 of file ref.bib
+Warning--string name "june" is undefined
+--line 20 of file ref.bib
+Warning--entry type for "redditBenchmarks" isn't style-file defined
+--line 25 of file ref.bib
+Warning--entry type for "gamersNexusBenchmarks" isn't style-file defined
+--line 34 of file ref.bib
+Warning--entry type for "OverclockingLTT" isn't style-file defined
+--line 43 of file ref.bib
+Warning--entry type for "InsiderOverclockGuide" isn't style-file defined
+--line 53 of file ref.bib
+Warning--entry type for "Tips2018Jun" isn't style-file defined
+--line 64 of file ref.bib
+Warning--entry type for "UpdateBIOS" isn't style-file defined
+--line 74 of file ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 7 entries,
+            6951 wiz_defined-function locations,
+            1311 strings with 11983 characters,
+and the built_in function-call counts, 12928 in all, are:
+= -- 1884
+> -- 50
+< -- 500
++ -- 458
+- -- 12
+* -- 652
+:= -- 2014
+add.period$ -- 29
+call.type$ -- 7
+change.case$ -- 129
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 229
+empty$ -- 550
+format.name$ -- 70
+if$ -- 2695
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 0
+newline$ -- 163
+num.names$ -- 40
+pop$ -- 146
+preamble$ -- 1
+purify$ -- 38
+quote$ -- 0
+skip$ -- 1265
+stack$ -- 0
+substring$ -- 488
+swap$ -- 112
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1112
+warning$ -- 0
+while$ -- 41
+width$ -- 0
+write$ -- 180
+(There were 8 warnings)

@@ -1,0 +1,93 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{555 Timer Tutorial - The Monostable Multivibrator}}}{%
+\APACcitebtitle {{555 Timer Tutorial - The Monostable Multivibrator}}}{%
+{\protect \APACyear {2020}}%
+}]{%
+temporizadorDef}
+\APACinsertmetastar {%
+temporizadorDef}%
+\APACrefbtitle {{555 Timer Tutorial - The Monostable Multivibrator}.} {{555
+  Timer Tutorial - The Monostable Multivibrator}.}
+\newblock
+\APACrefYearMonthDay{2020}{Apr}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.electronics-tutorials.ws/waveforms/555_timer.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 3. Apr. 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Artiñano%
+}{%
+Artiñano%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+tinkercad}
+\APACinsertmetastar {%
+tinkercad}%
+\begin{APACrefauthors}%
+Artiñano, D\BPBI Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{Apr}{}.
+\newblock
+\APACrefbtitle {{Circuit design Fantastic Kieran {$\vert$} Tinkercad}.}
+  {{Circuit design Fantastic Kieran {$\vert$} Tinkercad}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.tinkercad.com/things/hDyqbC1YIRd-fantastic-kieran/editel?tenant=circuits}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Fotorresistencia sencilla - DynamoElectronics}}}{%
+\APACcitebtitle {{Fotorresistencia sencilla - DynamoElectronics}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+fotorresistencia}
+\APACinsertmetastar {%
+fotorresistencia}%
+\APACrefbtitle {{Fotorresistencia sencilla - DynamoElectronics}.}
+  {{Fotorresistencia sencilla - DynamoElectronics}.}
+\newblock
+\APACrefYearMonthDay{2022}{Feb}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://dynamoelectronics.com/tienda/fotorresistencia-sencilla}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Rosie Research}%
+}{%
+{Rosie Research}%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+videoTemporizador}
+\APACinsertmetastar {%
+videoTemporizador}%
+\begin{APACrefauthors}%
+{Rosie Research}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{May}{}.
+\newblock
+\APACrefbtitle {{Tinkercad Circuits Tutorial - Using a 555 timer to make police
+  lights}.} {{Tinkercad Circuits Tutorial - Using a 555 timer to make police
+  lights}.}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL} \url{https://www.youtube.com/watch?v=0QK-xjzSeLU&t=455s}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

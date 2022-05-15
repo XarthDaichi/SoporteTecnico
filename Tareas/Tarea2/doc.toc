@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{Doc-Start}%
+\contentsline {section}{Investigar el uso del temporizador 555 y de la fotorresistencia}{1}{Doc-Start}%
+\contentsline {section}{Realizar un circuito utilizando el temporizador 555 o la fotorresistencia}{2}{Doc-Start}%
+\contentsline {section}{Obtener los siguientes datos de la figura 2}{2}{figure.caption.1}%
+\contentsline {subsection}{Resistencia total:}{3}{figure.caption.2}%
+\contentsline {subsection}{Corriente total:}{3}{figure.caption.2}%
+\contentsline {subsection}{Voltaje en cada resistencia:}{4}{figure.caption.2}%
+\contentsline {subsection}{Intensidad en cada resistencia:}{4}{figure.caption.2}%
+\contentsline {section}{En el circuito de la figura, calcular la resistencia total y la resistencia R3}{5}{figure.caption.2}%
+\contentsline {section}{Cinco resistencia idénticas se montan en paralelo sobre una línea de 100V. Calcular la intensidad que pasa por el grupo sabiendo que la resistencia de cada lámpara vale 400 ohmios.}{6}{figure.caption.3}%
+\contentsline {section}{Conclusión}{7}{figure.caption.4}%
+\contentsline {section}{\large \textbf {Referencias}}{8}{section*.5}%

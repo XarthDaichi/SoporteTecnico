@@ -1,0 +1,80 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Asale%
+\ \BBA {} Rae%
+}{%
+Asale%
+\ \BBA {} Rae%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+potenciometroDef}
+\APACinsertmetastar {%
+potenciometroDef}%
+\begin{APACrefauthors}%
+Asale, R.%
+\BCBT {}\ \BBA {} Rae.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{Mar}{}.
+\newblock
+\APACrefbtitle {{potenci{\ifmmode\acute{o}\else\'{o}\fi}metro {$\vert$}
+  Diccionario de la lengua espa{\ifmmode\tilde{n}\else\~{n}\fi}ola}.}
+  {{potenci{\ifmmode\acute{o}\else\'{o}\fi}metro {$\vert$} Diccionario de la
+  lengua espa{\ifmmode\tilde{n}\else\~{n}\fi}ola}.}
+\newblock
+\begin{APACrefURL} \url{https://dle.rae.es/potenci%C3%B3metro?m=form}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Circuit design Lab2 Diego Quirós Artiñano {$\vert$}
+  Tinkercad}}}{%
+\APACcitebtitle {{Circuit design Lab2 Diego Quirós Artiñano {$\vert$}
+  Tinkercad}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+tinkercadEjercicios}
+\APACinsertmetastar {%
+tinkercadEjercicios}%
+\APACrefbtitle {{Circuit design Lab2 Diego Quirós Artiñano {$\vert$}
+  Tinkercad}.} {{Circuit design Lab2 Diego Quirós Artiñano {$\vert$}
+  Tinkercad}.}
+\newblock
+\APACrefYearMonthDay{2022}{Mar}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.tinkercad.com/things/6gltqldCvS2-bodacious-rottis-blorr/editel?sharecode=QkWFedYCILKwoN_fK8TDHiMD8lS1oXhnXGB7g-Md8og}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{{Net Andino}}%
+}{%
+{{Net Andino}}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+video}
+\APACinsertmetastar {%
+video}%
+\begin{APACrefauthors}%
+{{Net Andino}}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Introducción a la Electrónica Analógica y Electrónica
+  Digital.} {Introducción a la electrónica analógica y electrónica
+  digital.}
+\newblock
+\APACaddressPublisher{}{YouTube}.
+\newblock
+\begin{APACrefURL} \url{https://www.youtube.com/watch?v=TGozIvmanI8}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

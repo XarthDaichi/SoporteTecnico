@@ -1,0 +1,51 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{A Complete Tutorial on Changing the Boot Order in BIOS}}}{%
+\APACcitebtitle {{A Complete Tutorial on Changing the Boot Order in BIOS}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+BIOSBootChanges}
+\APACinsertmetastar {%
+BIOSBootChanges}%
+\APACrefbtitle {{A Complete Tutorial on Changing the Boot Order in BIOS}.} {{A
+  Complete Tutorial on Changing the Boot Order in BIOS}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{04}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.lifewire.com/change-the-boot-order-in-bios-2624528}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 24. Apr. 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Santos%
+}{%
+Santos%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+ErrorCodes}
+\APACinsertmetastar {%
+ErrorCodes}%
+\begin{APACrefauthors}%
+Santos, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{04}}}{}.
+\newblock
+\APACrefbtitle {{What Are ASUS Beep Codes and How To Identify Them {$\vert$}
+  SoftwareKeep}.} {{What Are ASUS Beep Codes and How To Identify Them {$\vert$}
+  SoftwareKeep}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://softwarekeep.com/blog/what-are-asus-beep-codes-and-how-to-identify-them}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 24. Apr. 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

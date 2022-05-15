@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{section*.1}%
+\contentsline {section}{Investigación}{1}{section*.2}%
+\contentsline {subsection}{La compuerta negadora NOT 7404}{1}{section*.3}%
+\contentsline {subsection}{La compuerta multiplicadora AND 7408}{1}{section*.3}%
+\contentsline {subsection}{La compuerta sumadora OR 7432}{1}{section*.3}%
+\contentsline {section}{Circuitos}{2}{section*.4}%
+\contentsline {section}{Conclusión}{5}{section*.9}%
+\contentsline {section}{\large \textbf {Referencias}}{6}{section*.10}%
