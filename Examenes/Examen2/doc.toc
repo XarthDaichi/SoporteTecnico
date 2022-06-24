@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Investigación}{1}{section*.1}%
+\contentsline {subsection}{Un usuario tiene una computadora con 500 GB de disco duro y 8 GB de RAM (64 bits ) y desea instalar un sistema operativo, pero no sabe cuál elegir:}{1}{section*.2}%
+\contentsline {subsection}{El usuario quiere tener otro SO instalado en su computadora,}{2}{section*.3}%
+\contentsline {subsection}{Una empresa quiere abrir una oficina con 10 estaciones de trabajo:}{3}{section*.4}%
+\contentsline {section}{Exposición de los compañeros}{4}{section*.5}%
+\contentsline {section}{\large \textbf {Referencias}}{7}{section*.6}%

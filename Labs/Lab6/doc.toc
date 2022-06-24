@@ -2,5 +2,15 @@
 \babel@toc {spanish}{}
 \contentsline {section}{Introducción}{1}{section*.1}%
 \contentsline {section}{Pregutnas}{1}{section*.2}%
-\contentsline {section}{Conclusión}{2}{section*.3}%
-\contentsline {section}{\large \textbf {Referencias}}{3}{section*.4}%
+\contentsline {subsection}{1}{1}{section*.3}%
+\contentsline {subsection}{2}{1}{Item.1}%
+\contentsline {subsection}{3}{2}{Item.6}%
+\contentsline {subsection}{4}{3}{Item.7}%
+\contentsline {subsection}{5}{3}{Item.8}%
+\contentsline {subsection}{6}{5}{Item.14}%
+\contentsline {subsection}{7}{6}{Item.15}%
+\contentsline {subsection}{8}{6}{Item.21}%
+\contentsline {subsection}{9}{6}{Item.24}%
+\contentsline {subsection}{10}{7}{Item.28}%
+\contentsline {section}{Conclusión}{8}{section*.4}%
+\contentsline {section}{\large \textbf {Referencias}}{9}{section*.5}%

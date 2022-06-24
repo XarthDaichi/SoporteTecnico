@@ -1,0 +1,139 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Trabajo Escrito: Windows\\
+    \vskip2cm
+    \large Camilo González Fuentes \\
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    25 de mayo, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+\section*{Introducción}
+\phantomsection
+\addcontentsline{toc}{section}{Introducción}
+
+En este trabajo de investigación exploraremos el tema del sistema operativo que es Windows. Vamos a visitar sus raíces y ver de donde viene este gigante que conocemos hoy en día.
+
+%------------------------------------------------------------------------------------
+\section*{Sistema Operativo}
+\phantomsection
+\addcontentsline{toc}{section}{Sistema Operativo}
+
+Windows es un sistema operativo gráfico. Windows se considera un sistema operativo grafico ya que permite que la computadora y sus componentes se conecten al internet además de esto permite la interacción entre los propios componentes, bueno más que todo esto sería por qué se considera un Sistema Operativo, por otro lado se considera un sistema operativo con “GUI” (Con interfaz gráfica) ya que tiene ventanillas en pantalla que permiten la navegación en el sistema de una manera mas visual, en vez de ser solo con terminal como lo son los sistemas operativos sin “GUI”, por ejemplo “Arch Linux” que trabaja perfectamente sin necesidad de una interfaz gráfica, otro ejemplo configurado en las versiones más recientes de Windows es WSL (Windows Subsystem Linux). También es importante mencionar en este apartado que Windows siempre a tenido una rivalidad con otro sistema operativo llamado “MAC OS”. (\cite{WhatIsWindows})
+
+%------------------------------------------------------------------------------------
+\section*{El comienzo de Microsoft Windows}
+\phantomsection
+\addcontentsline{toc}{section}{El comienzo de Microsoft Windows}
+
+La primera versión de Windows fue lanzada al publico en 1985. Este sistema operativo se conoce como “Windows” ya que contiene ventanas graficas para cada una de sus aplicaciones o programas, Windows también permite correr carias aplicaciones a la vez cada una con una ventana distinta. Todo se basa en el MS-DOS, toda versión del sistema es la misma base, pero con features extra del anterior. (\cite{WhatIsWindows})
+
+La primera versión de Windows fue lanzada al publico en 1985. Este sistema operativo se conoce como “Windows” ya que contiene ventanas graficas para cada una de sus aplicaciones o programas, Windows también permite correr varias aplicaciones a la vez cada una con una ventana distinta. Todo se basa en el MS-DOS, toda versión del sistema es la misma base, pero con features extra del anterior.
+Hablando un poco sobre la primera versión de Windows, la cual fue denominada Microsoft Windows 1.0 la cual fue anunciada en 1983. La promesa de Bill Gates era que el sistema estaría listo para mediados del siguiente año, sin embargo, el desarrollo tomó mucho más tiempo de lo esperado y el producto final llegó noviembre de 1985 en forma cuatro floppy disks. Esta primera versión de Windows no era en si un sistema operativo. Aunque todos sabemos que Windows es una familia de sistemas operativos, en realidad la primera versión era completamente distinta. Se trataba de un ambiente gráfico que funcionaba sobre MS-DOS, que era en realidad el software que se encargaba de todo el trabajo.
+Microsoft empezó con la asociación de Bill Gates y Paul Allen en 1975. Bill Gates vio el potencial de los sistemas basados en GUI tanto como Steve Jobs y por lo tanto comenzó su idea para un proyecto que llamó Interface Manager. Gates pensó que podría llevar la interfaz gráfica de usuario a las masas a un costo menor que el LISA de \$9,000 dólares. El resto de Microsoft apoyó esta idea también, pero no estaban satisfechos con el nombre. Irónicamente, a pesar de su desprecio al acrónimo WIMPs, el equipo seleccionó Windows como el nombre del nuevo sistema. Sin embargo, el nombre no fue siempre el mismo, al inicio se llamaba “Interface Manager” (Administrador de Interfaz). Poco tiempo después, cuando la interfaz comenzó a tomar forma y la gente de Microsoft se dio cuenta de su importancia, tomaron la decisión de llamar a su producto “Windows” (Ventanas), aunque por cuestiones de registro de marca su nombre final terminó en “Microsoft Windows”. Un dato que me parece importante de nombrar es que Windows no fue quien inventó las ventanas, ya que Mac OS ya utilizaba ventanas desde antes. (\cite{DatosCuriososWin1} y \cite{QueEsWindows})
+
+%------------------------------------------------------------------------------------
+\section*{Distintas Versiones de Windows}
+\phantomsection
+\addcontentsline{toc}{section}{Distintas Versiones de Windows}
+Según \cite{versionesWindows} las versiones y sus "features" son:
+\begin{itemize}
+    \item Windows 1.0: Una versión que ofrecía poca funcionalidad y que no se trataba de un sistema operativo completo, ya que más bien era una extensión gráfica de MS-DOS que hacía pensar en dejar atrás el uso de comandos.
+    \item Windows 2.0: Incluía por primera vez ventanas que podían solaparse entre ellas.
+    \item Windows 3.0: Llega con una interfaz gráfica en la que ya se comenzaban a apreciar nuevos elementos visuales además de las exitosas «ventanas».
+    \item Windows 95: La primera versión que ofrece una interfaz muy mejorada y donde ya aparecen la barra de tareas y el menú Inicio
+    \item Windows NT Server: Destacada por estar enfocado a estaciones de trabajo y servidor de red.
+    \item Windows 98: Una versión que llegaba con el sistema de archivos FAT32 que trató de potenciar el acceso a la red. Además, incluyó la compatibilidad con lectores de DVDs y la incorporación de los primeros puertos USB.
+    \item Windows 2000: El objetivo era ofrecer todo el rendimiento a aquellos usuarios avanzados y profesionales que ejecutaban programas de alto rendimiento.
+    \item Windows Me: Fue diseñado por Microsoft para los usuarios de PC, sin embargo, no tuvo la aceptación esperada por la empresa.
+    \item Windows XP:  Se destacan grandes mejoras en la interfaz de usuario, con nuevos iconos, menús y opciones que permitían a los usuarios profundizar y controlar mucho más todo tipo de tareas sobre el sistema. Pero no sólo se quedó en ofrecer mejoras gráficas, sino que también llegó con un gran incremento de velocidad y agilidad.
+    \item Windows Vista: Interfaz con grandes cambios y enfocada en mejorar la seguridad de los usuarios que, por el contrario, no fue del agrado de la gran mayoría de ellos.
+    \item Windows 7: Windows Shell rediseñado, nueva barra de tareas, sistema de red, mejoras en el rendimiento y su velocidad y una reducción del consumo de recursos.
+    \item Windows 8: Una versión que añadía soporte para microprocesadores ARM y cuya interfaz llegaba modificada para hacerla más adecuada para su uso con pantallas táctiles, mostrando nuevos efectos planos para ventanas y botones con un color simple.
+    \item Windows 10 y 11: Una versión que cuenta con un gran conjunto de aplicaciones, una interfaz moderna con un gran rendimiento y que, además, es multiplataforma, Cortana, etc.
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section*{Conclusión}
+\phantomsection
+\addcontentsline{toc}{section}{Conclusión}
+
+En este trabajo escrito aprendimos varias cosas sobre sistemas operativos, como el hecho de que la interfaz gráfica así como en la actualidad es la norma no siempre fue el caso. Hemos logrado visualizar de una manera diferente la rivalidad entre Mac y Windows. Exploramos la historia de Windows, de tal manera que no habíamos hecho en otro momento y tenemos una apreciación diferente de este sistema operativo que usamos todos los días. Finalmente hemos visitado las diferentes versiones para conocer cuanto ha crecido Windows para llegar a ser lo que conocemos hoy en día. Este trabajo de investigación nos gustó al poder ponerle más detalle a como llegamos a trabajar con sistemas operativos con GUI y como Windows fue parte de ello.
+
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{ref}
+
+\end{document}

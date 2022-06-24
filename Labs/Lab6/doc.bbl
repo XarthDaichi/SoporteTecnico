@@ -1,31 +1,518 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Cervantes~Saavedra%
-, Raffel%
-\BCBL {}\ \BBA {} Wilson%
-}{%
-Cervantes~Saavedra%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1999}}%
+\APACcitebtitle {{15 BEST Free Disk Partition Software for Windows in 2022}}}{%
+\APACcitebtitle {{15 BEST Free Disk Partition Software for Windows in 2022}}}{%
+{\protect \APACyear {2022}}%
 }]{%
-cervantes1999}
+PartiSoft}
 \APACinsertmetastar {%
-cervantes1999}%
+PartiSoft}%
+\APACrefbtitle {{15 BEST Free Disk Partition Software for Windows in 2022}.}
+  {{15 BEST Free Disk Partition Software for Windows in 2022}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.softwaretestinghelp.com/free-disk-partition-manager}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Albrecht%
+\ \protect \BOthers {.}}{%
+Albrecht%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+BPMRResearch}
+\APACinsertmetastar {%
+BPMRResearch}%
 \begin{APACrefauthors}%
-Cervantes~Saavedra, M\BPBI d.%
-, Raffel, B.%
-\BCBL {}\ \BBA {} Wilson, D\BPBI d\BPBI A.%
+Albrecht, T\BPBI R.%
+, Arora, H.%
+, Ayanoor-Vitikkate, V.%
+, Beaujour, J\BHBI M.%
+, Bedau, D.%
+, Berman, D.%
+\BDBL {}Yang, E.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{1999}.
+\APACrefYearMonthDay{2015}{may}{}.
 \newblock
-\APACrefbtitle {Don {Quijote}: a new translation, backgrounds and contexts,
-  criticism} {Don {Quijote}: a new translation, backgrounds and contexts,
-  criticism}\ (\PrintOrdinal{1st ed}\ \BEd).
+{\BBOQ}\APACrefatitle {Bit-Patterned Magnetic Recording: Theory, Media
+  Fabrication, and Recording Performance} {Bit-patterned magnetic recording:
+  Theory, media fabrication, and recording performance}.{\BBCQ}
 \newblock
-\APACaddressPublisher{New York}{W.W. Norton}.
+\APACjournalVolNumPages{{IEEE} Transactions on Magnetics}{51}{5}{1--42}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1109%2Ftmag.2015.2397880}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/tmag.2015.2397880} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Connecting and Installing PATA Hard Drives}}}{%
+\APACcitebtitle {{Connecting and Installing PATA Hard Drives}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+PATA}
+\APACinsertmetastar {%
+PATA}%
+\APACrefbtitle {{Connecting and Installing PATA Hard Drives}.} {{Connecting and
+  Installing PATA Hard Drives}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.kitchentablecomputers.com/connecting-pata-hard-drives.php}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dell%
+}{%
+Dell%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+PartitionCreator}
+\APACinsertmetastar {%
+PartitionCreator}%
+\begin{APACrefauthors}%
+Dell.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\APACrefbtitle {{How to Create or Modify a Partition in Microsoft Windows}.}
+  {{How to Create or Modify a Partition in Microsoft Windows}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.dell.com/support/kbdoc/en-us/000143677/how-to-create-or-modify-a-partition-in-microsoft-windows}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Difference between SATA I, SATA II and SATA III}}}{%
+\APACcitebtitle {{Difference between SATA I, SATA II and SATA III}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+SATA123}
+\APACinsertmetastar {%
+SATA123}%
+\APACrefbtitle {{Difference between SATA I, SATA II and SATA III}.}
+  {{Difference between SATA I, SATA II and SATA III}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://kb.sandisk.com/app/answers/detail/a_id/8142/~/difference-between-sata-i%2C-sata-ii-and-sata-iii}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Grabaci{\ifmmode\acute{o}\else\'{o}\fi}n
+  magn{\ifmmode\acute{e}\else\'{e}\fi}tica termoasistida (Heat Assisted
+  Magnetic Recording; HAMR) {$\vert$} Seagate
+  Latinoam{\ifmmode\acute{e}\else\'{e}\fi}rica}}}{%
+\APACcitebtitle {{Grabaci{\ifmmode\acute{o}\else\'{o}\fi}n
+  magn{\ifmmode\acute{e}\else\'{e}\fi}tica termoasistida (Heat Assisted
+  Magnetic Recording; HAMR) {$\vert$} Seagate
+  Latinoam{\ifmmode\acute{e}\else\'{e}\fi}rica}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+HAMR}
+\APACinsertmetastar {%
+HAMR}%
+\APACrefbtitle {{Grabaci{\ifmmode\acute{o}\else\'{o}\fi}n
+  magn{\ifmmode\acute{e}\else\'{e}\fi}tica termoasistida (Heat Assisted
+  Magnetic Recording; HAMR) {$\vert$} Seagate
+  Latinoam{\ifmmode\acute{e}\else\'{e}\fi}rica}.}
+  {{Grabaci{\ifmmode\acute{o}\else\'{o}\fi}n
+  magn{\ifmmode\acute{e}\else\'{e}\fi}tica termoasistida (Heat Assisted
+  Magnetic Recording; HAMR) {$\vert$} Seagate
+  Latinoam{\ifmmode\acute{e}\else\'{e}\fi}rica}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.seagate.com/la/es/innovation/hamr}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Josan%
+}{%
+Josan%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+SMRCMPPMR}
+\APACinsertmetastar {%
+SMRCMPPMR}%
+\begin{APACrefauthors}%
+Josan, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{11}}}{}.
+\newblock
+\APACrefbtitle {{Diferencias entre SMR, CMR y PMR. Como elegir el mejor disco
+  duro - NASeros}.} {{Diferencias entre SMR, CMR y PMR. Como elegir el mejor
+  disco duro - NASeros}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://naseros.com/2020/05/03/diferencias-entre-smr-cmr-y-pmr}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lázaro%
+\ \BBA {} Velasco%
+}{%
+Lázaro%
+\ \BBA {} Velasco%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+DiscosDuros}
+\APACinsertmetastar {%
+DiscosDuros}%
+\begin{APACrefauthors}%
+Lázaro, A.%
+\BCBT {}\ \BBA {} Velasco, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {DISCOS DUROS.} {Discos duros.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.infor.uva.es/~cevp/FI_II/fichs_pdf_teo/Trabajos_Ampliacion/Discos_Duros.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{My Passport 1TB Black}}}{%
+\APACcitebtitle {{My Passport 1TB Black}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+WesternDigitalMyPassport}
+\APACinsertmetastar {%
+WesternDigitalMyPassport}%
+\APACrefbtitle {{My Passport 1TB Black}.} {{My Passport 1TB Black}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.westerndigital.com/products/portable-drives/wd-my-passport-usb-3-0-hdd#WDBYVG0010BBK-WESN}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+nickscomputerfix%
+}{%
+nickscomputerfix%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Defragmentation}
+\APACinsertmetastar {%
+Defragmentation}%
+\begin{APACrefauthors}%
+nickscomputerfix.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{01}}}{}.
+\newblock
+\APACrefbtitle {{How to defrag Windows 10 - How To defrag your Hard Drive -
+  FASTER Laptop! - Free {\&} Easy}.} {{How to defrag Windows 10 - How To defrag
+  your Hard Drive - FASTER Laptop! - Free {\&} Easy}.}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL} \url{https://www.youtube.com/watch?v=uHQdqV6mOzU}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nunic%
+}{%
+Nunic%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+BPMREasy}
+\APACinsertmetastar {%
+BPMREasy}%
+\begin{APACrefauthors}%
+Nunic, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{10}}}{}.
+\newblock
+\APACrefbtitle {{What's the next step in HDD technology?}} {{What's the next
+  step in HDD technology?}}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.ontrack.com/en-gb/blog/whats-the-next-step-in-hdd-technology}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{RAID level 0, 1, 5, 6 and 10 {$\vert$} Advantage,
+  disadvantage, use}}}{%
+\APACcitebtitle {{RAID level 0, 1, 5, 6 and 10 {$\vert$} Advantage,
+  disadvantage, use}}}{%
+{\protect \APACyear {2020}}%
+}]{%
+RAIDToo}
+\APACinsertmetastar {%
+RAIDToo}%
+\APACrefbtitle {{RAID level 0, 1, 5, 6 and 10 {$\vert$} Advantage,
+  disadvantage, use}.} {{RAID level 0, 1, 5, 6 and 10 {$\vert$} Advantage,
+  disadvantage, use}.}
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{08}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.prepressure.com/library/technology/raid}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Regidi%
+}{%
+Regidi%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+MyPassportSpeed}
+\APACinsertmetastar {%
+MyPassportSpeed}%
+\begin{APACrefauthors}%
+Regidi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{10}}}{}.
+\newblock
+\APACrefbtitle {{WD My Passport 2 TB External HDD review: Slim and light, but
+  also on performance- Technology News, Firstpost}.} {{WD My Passport 2 TB
+  External HDD review: Slim and light, but also on performance- Technology
+  News, Firstpost}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.firstpost.com/tech/news-analysis/wd-my-passport-2-tb-external-hdd-review-slim-and-light-but-also-on-performance-8952911.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shilov%
+}{%
+Shilov%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+BPMRFutureUse}
+\APACinsertmetastar {%
+BPMRFutureUse}%
+\begin{APACrefauthors}%
+Shilov, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Seagate's Roadmap: The Path to 120 TB Hard Drives}}
+  {{Seagate's Roadmap: The Path to 120 TB Hard Drives}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{AnandTech}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.anandtech.com/show/16544/seagates-roadmap-120-tb-hdds}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stone%
+}{%
+Stone%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+PCMagMyPassport}
+\APACinsertmetastar {%
+PCMagMyPassport}%
+\begin{APACrefauthors}%
+Stone, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{02}}}{}.
+\newblock
+\APACrefbtitle {{WD My Passport (5TB) Review}.} {{WD My Passport (5TB)
+  Review}.}
+\newblock
+\begin{APACrefURL} \url{https://www.pcmag.com/reviews/wd-my-passport-5tb}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+suaveTech%
+}{%
+suaveTech%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Format}
+\APACinsertmetastar {%
+Format}%
+\begin{APACrefauthors}%
+suaveTech.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{01}}}{}.
+\newblock
+\APACrefbtitle {{How to Partition and Format a Hard Drive}.} {{How to Partition
+  and Format a Hard Drive}.}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.youtube.com/watch?v=j8s3nwYnUaw&list=TLPQMTYwNTIwMjJckEmvEGp4mQ&index=7}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Supervise la tasa de transferencia de la red con PRTG}}}{%
+\APACcitebtitle {{Supervise la tasa de transferencia de la red con PRTG}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+TasaDeTransferencia}
+\APACinsertmetastar {%
+TasaDeTransferencia}%
+\APACrefbtitle {{Supervise la tasa de transferencia de la red con PRTG}.}
+  {{Supervise la tasa de transferencia de la red con PRTG}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.paessler.com/es/network-throughput}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 16. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{TechTarget Contributor}%
+}{%
+{TechTarget Contributor}%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+MBRDefinition}
+\APACinsertmetastar {%
+MBRDefinition}%
+\begin{APACrefauthors}%
+{TechTarget Contributor}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Master Boot Record (MBR)}} {{Master Boot Record
+  (MBR)}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{WhatIs.com}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.techtarget.com/whatis/definition/Master-Boot-Record-MBR}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Webster%
+\ \BBA {} Safford%
+}{%
+Webster%
+\ \BBA {} Safford%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+TomsHardwareHDD}
+\APACinsertmetastar {%
+TomsHardwareHDD}%
+\begin{APACrefauthors}%
+Webster, S.%
+\BCBT {}\ \BBA {} Safford, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Best External SSDs and Hard Drives of 2022}} {{Best
+  External SSDs and Hard Drives of 2022}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tom's Hardware}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.tomshardware.com/reviews/best-external-hard-drive-ssd,5987.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{What is RAID and what are the different RAID modes? {$\vert$}
+  Europe}}}{%
+\APACcitebtitle {{What is RAID and what are the different RAID modes? {$\vert$}
+  Europe}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+RAID}
+\APACinsertmetastar {%
+RAID}%
+\APACrefbtitle {{What is RAID and what are the different RAID modes? {$\vert$}
+  Europe}.} {{What is RAID and what are the different RAID modes? {$\vert$}
+  Europe}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.startech.com/en-eu/faq/raid-modes-explanation}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 15. May 2022]}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

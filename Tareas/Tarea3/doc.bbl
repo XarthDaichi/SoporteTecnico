@@ -1,0 +1,416 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{The 40 Most-Used Linux Commands You Should Know}}}{%
+\APACcitebtitle {{The 40 Most-Used Linux Commands You Should Know}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+commands}
+\APACinsertmetastar {%
+commands}%
+\APACrefbtitle {{The 40 Most-Used Linux Commands You Should Know}.} {{The 40
+  Most-Used Linux Commands You Should Know}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://kinsta.com/blog/linux-commands}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Android 12 {$\vert$} Android Developers}}}{%
+\APACcitebtitle {{Android 12 {$\vert$} Android Developers}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+androidVersions}
+\APACinsertmetastar {%
+androidVersions}%
+\APACrefbtitle {{Android 12 {$\vert$} Android Developers}.} {{Android 12
+  {$\vert$} Android Developers}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{01}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://developer.android.com/about/versions/12}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Android Community}}}{%
+\APACcitebtitle {{Android Community}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+androidCommunity}
+\APACinsertmetastar {%
+androidCommunity}%
+\APACrefbtitle {{Android Community}.} {{Android Community}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://support.google.com/android/community?hl=en}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Antonella%
+}{%
+Antonella%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+andoridTaskManager}
+\APACinsertmetastar {%
+andoridTaskManager}%
+\begin{APACrefauthors}%
+Antonella.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{{\textquestiondown}Qu{\ifmmode\acute{e}\else\'{e}\fi}
+  es el administrador de tareas de Android?}}
+  {{{\textquestiondown}Qu{\ifmmode\acute{e}\else\'{e}\fi} es el administrador
+  de tareas de Android?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CompuHoy}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.compuhoy.com/que-es-el-administrador-de-tareas-de-android/#%C2%BFDonde_esta_el_Administrador_de_tareas_en_Android}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Caracter{\ifmmode\acute{\imath}\else\'{\i}\fi}sticas
+  {\ifmmode---\else\textemdash\fi} Android OS 0.1 documentation}}}{%
+\APACcitebtitle {{Caracter{\ifmmode\acute{\imath}\else\'{\i}\fi}sticas
+  {\ifmmode---\else\textemdash\fi} Android OS 0.1 documentation}}}{%
+{\protect \APACyear {2021}}%
+}]{%
+andorid2}
+\APACinsertmetastar {%
+andorid2}%
+\APACrefbtitle {{Caracter{\ifmmode\acute{\imath}\else\'{\i}\fi}sticas
+  {\ifmmode---\else\textemdash\fi} Android OS 0.1 documentation}.}
+  {{Caracter{\ifmmode\acute{\imath}\else\'{\i}\fi}sticas
+  {\ifmmode---\else\textemdash\fi} Android OS 0.1 documentation}.}
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{01}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://androidos.readthedocs.io/en/latest/data/caracteristicas}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DevynCJohnson%
+}{%
+DevynCJohnson%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+exampleSystemLibraries}
+\APACinsertmetastar {%
+exampleSystemLibraries}%
+\begin{APACrefauthors}%
+DevynCJohnson.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Overview of the Linux Library System}} {{Overview of
+  the Linux Library System}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linux}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.linux.org/threads/overview-of-the-linux-library-system.11536}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{GNOME {\textendash} Simple, beautiful, elegant.}}}{%
+\APACcitebtitle {{GNOME {\textendash} Simple, beautiful, elegant.}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+GNOME}
+\APACinsertmetastar {%
+GNOME}%
+\APACrefbtitle {{GNOME {\textendash} Simple, beautiful, elegant.}} {{GNOME
+  {\textendash} Simple, beautiful, elegant.}}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.gnome.org} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Home}}}{%
+\APACcitebtitle {{Home}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+KDE}
+\APACinsertmetastar {%
+KDE}%
+\APACrefbtitle {{Home}.} {{Home}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://kde.org} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+King%
+}{%
+King%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+GNOME1}
+\APACinsertmetastar {%
+GNOME1}%
+\begin{APACrefauthors}%
+King, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{10}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{GNOME Explained: A Look at One of Linux's Most Popular
+  Desktops}} {{GNOME Explained: A Look at One of Linux's Most Popular
+  Desktops}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{MUO}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.makeuseof.com/tag/gnome-explained-look-one-linuxs-popular-desktops}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lulka%
+}{%
+Lulka%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+kernelDefinition}
+\APACinsertmetastar {%
+kernelDefinition}%
+\begin{APACrefauthors}%
+Lulka, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{kernel}} {{kernel}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SearchDataCenter}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.techtarget.com/searchdatacenter/definition/kernel}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+mrNayaNi%
+}{%
+mrNayaNi%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+CLIvsGUI}
+\APACinsertmetastar {%
+CLIvsGUI}%
+\begin{APACrefauthors}%
+mrNayaNi.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{12}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Command Line Interface (CLI) vs. Graphical User
+  Interface (GUI)}} {{Command Line Interface (CLI) vs. Graphical User Interface
+  (GUI)}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cybrary}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.cybrary.it/blog/0p3n/command-line-interface-cli-vs-graphical-user-interface-gui}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Natarajan%
+}{%
+Natarajan%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+startUp}
+\APACinsertmetastar {%
+startUp}%
+\begin{APACrefauthors}%
+Natarajan, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{02}}}{}.
+\newblock
+\APACrefbtitle {{6 Stages of Linux Boot Process (Startup Sequence)}.} {{6
+  Stages of Linux Boot Process (Startup Sequence)}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.thegeekstuff.com/2011/02/linux-boot-process}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Operating System - Linux}}}{%
+\APACcitebtitle {{Operating System - Linux}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+systemLibraries}
+\APACinsertmetastar {%
+systemLibraries}%
+\APACrefbtitle {{Operating System - Linux}.} {{Operating System - Linux}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.tutorialspoint.com/operating_system/os_linux.htm}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Proceso de arranque, inicio y cierre del sistema}}}{%
+\APACcitebtitle {{Proceso de arranque, inicio y cierre del sistema}}}{%
+{\protect \APACyear {2004}}%
+}]{%
+bootloaderArranque}
+\APACinsertmetastar {%
+bootloaderArranque}%
+\APACrefbtitle {{Proceso de arranque, inicio y cierre del sistema}.} {{Proceso
+  de arranque, inicio y cierre del sistema}.}
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{12}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/ch-boot-init-shutdown.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{[Resuelta] arranque {$\vert$} {\textquestiondown}Tiene
+  Android una BIOS?}}}{%
+\APACcitebtitle {{[Resuelta] arranque {$\vert$} {\textquestiondown}Tiene
+  Android una BIOS?}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+androidBIOS}
+\APACinsertmetastar {%
+androidBIOS}%
+\APACrefbtitle {{[Resuelta] arranque {$\vert$} {\textquestiondown}Tiene Android
+  una BIOS?}} {{[Resuelta] arranque {$\vert$} {\textquestiondown}Tiene Android
+  una BIOS?}}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.preguntandroid.com/pregunta/32769/tiene-android-una-bios}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Techopedia}%
+}{%
+{Techopedia}%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+KDE1}
+\APACinsertmetastar {%
+KDE1}%
+\begin{APACrefauthors}%
+{Techopedia}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{09}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{K Desktop Environment (KDE)}} {{K Desktop Environment
+  (KDE)}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Techopedia}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.techopedia.com/definition/3526/k-desktop-environment-kde}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Techopedia}%
+}{%
+{Techopedia}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+bootloaderDef}
+\APACinsertmetastar {%
+bootloaderDef}%
+\begin{APACrefauthors}%
+{Techopedia}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Boot Loader}} {{Boot Loader}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Techopedia}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.techopedia.com/definition/3324/boot-loader}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{What do MBR and GPT mean, and when do I use them? {$\vert$}
+  Europe}}}{%
+\APACcitebtitle {{What do MBR and GPT mean, and when do I use them? {$\vert$}
+  Europe}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+MBR}
+\APACinsertmetastar {%
+MBR}%
+\APACrefbtitle {{What do MBR and GPT mean, and when do I use them? {$\vert$}
+  Europe}.} {{What do MBR and GPT mean, and when do I use them? {$\vert$}
+  Europe}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.startech.com/en-eu/faq/mbr-vs-gpt}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{What is Android {$\vert$} Android}}}{%
+\APACcitebtitle {{What is Android {$\vert$} Android}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+android}
+\APACinsertmetastar {%
+android}%
+\APACrefbtitle {{What is Android {$\vert$} Android}.} {{What is Android
+  {$\vert$} Android}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\APACaddressPublisher{}{Android}.
+\newblock
+\begin{APACrefURL} \url{https://www.android.com/what-is-android}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

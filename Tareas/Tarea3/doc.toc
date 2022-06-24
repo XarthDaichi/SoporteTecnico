@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{section*.1}%
+\contentsline {section}{Linux}{1}{section*.2}%
+\contentsline {subsection}{¿Qué es el kernel?}{1}{section*.3}%
+\contentsline {subsection}{¿Qué son las bibliotecas (librerias) del sistema? Indique algunos ejemplos de librerias}{1}{Item.1}%
+\contentsline {subsection}{¿Cómo es el proceso de arranque de Linux?}{1}{Item.2}%
+\contentsline {subsection}{¿Qué es el registro de arranque maestro MBR?}{2}{Item.9}%
+\contentsline {subsection}{¿Qué es el gestor de arranque (boot loader)?¿Cuáles son sus etapas?}{2}{Item.10}%
+\contentsline {subsection}{Indicar la diferencia entre CLI y el GUI}{2}{Item.11}%
+\contentsline {subsection}{¿Qué es GNOME?}{2}{Item.12}%
+\contentsline {subsection}{¿Qué es KDE?}{3}{Item.13}%
+\contentsline {subsection}{Indicar y describir los comando más utilizados en Linux}{3}{Item.14}%
+\contentsline {section}{Otros sistemas operativos (puede ser para TV, dispositivo móvil, automóvil, videojuego)}{5}{section*.4}%
+\contentsline {subsection}{Dispositivo en el que se puede ejecutar}{5}{section*.5}%
+\contentsline {subsection}{Comunidad y Soporte}{5}{Item.26}%
+\contentsline {subsection}{Usabilidad}{5}{Item.27}%
+\contentsline {subsection}{Funcionalidad}{5}{Item.28}%
+\contentsline {subsection}{Características técnicas que debe tener el dispositivo donde se instalará}{6}{Item.29}%
+\contentsline {subsection}{Operaciones básicas que se pueden realizar con el SO}{6}{Item.30}%
+\contentsline {subsection}{Versionas: aplicaciones, ambientes, mejoras con respecto a versiones previas}{7}{Item.31}%
+\contentsline {subsection}{Características (plataformas, requisitos, procesadores)}{7}{Item.32}%
+\contentsline {subsection}{Administrador de tareas Monitor de sistema}{8}{Item.33}%
+\contentsline {subsection}{BIOS (integración y fundamento como soporte para el SO)}{8}{Item.34}%
+\contentsline {section}{Conclusión}{8}{section*.6}%
+\contentsline {section}{\large \textbf {Referencias}}{9}{section*.7}%

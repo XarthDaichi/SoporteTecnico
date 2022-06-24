@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: doc.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ref.bib
+Warning--entry type for "Manjaro" isn't style-file defined
+--line 15 of file ref.bib
+Warning--entry type for "Ubuntu" isn't style-file defined
+--line 22 of file ref.bib
+Warning--entry type for "VirtualBox" isn't style-file defined
+--line 30 of file ref.bib
+Warning--entry type for "NetworkChuck2021Jan" isn't style-file defined
+--line 37 of file ref.bib
+Warning--entry type for "UPS1" isn't style-file defined
+--line 71 of file ref.bib
+Warning--entry type for "UPS2" isn't style-file defined
+--line 78 of file ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 14 entries,
+            6951 wiz_defined-function locations,
+            1329 strings with 12283 characters,
+and the built_in function-call counts, 24108 in all, are:
+= -- 3409
+> -- 117
+< -- 932
++ -- 980
+- -- 21
+* -- 1263
+:= -- 3773
+add.period$ -- 45
+call.type$ -- 14
+change.case$ -- 263
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 545
+empty$ -- 1059
+format.name$ -- 190
+if$ -- 5040
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 0
+newline$ -- 294
+num.names$ -- 72
+pop$ -- 605
+preamble$ -- 1
+purify$ -- 65
+quote$ -- 0
+skip$ -- 1850
+stack$ -- 0
+substring$ -- 1094
+swap$ -- 238
+text.length$ -- 43
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1672
+warning$ -- 0
+while$ -- 95
+width$ -- 0
+write$ -- 353
+(There were 6 warnings)

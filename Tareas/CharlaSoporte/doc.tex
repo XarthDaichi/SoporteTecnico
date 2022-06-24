@@ -1,0 +1,121 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Informe de Charla: Sistema de evaluación de sondas de calidad (Sutel)\\
+    \vskip2cm
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    22 de mayo, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+\section*{Introducción}
+\phantomsection
+\addcontentsline{toc}{section}{Introducción}
+
+\quad En este informe se van a ver sobre varios puntos que se tocaron en la charla, reglamentos, consideraciones, medidas y en general un proceso de evaluación de calidad. El presentador es Sutel entonces es la compañía que podemos agarrar como caso de estudio.
+
+%------------------------------------------------------------------------------------
+\section*{Desarrollo}
+\phantomsection
+\addcontentsline{toc}{section}{Desarrollo}
+
+\quad Cuando se habla de mediciones de calidad hay una variedad de aspectos que hay que tomar en consideración. Para empezar hay que entender que las encuestas de calidad de servicios son subjetivas dado a que cada individuo buscan diferentes partes de un servicio (gaming, texting, streaming, videos, etc.). Las siguientes partes son ya preparación para la calidad: primero son los reglamentos de presentación del producto que se está evaluando (en el caso de Sutel los reglamentos de presentación de los servicios de internet), segundo es el aspecto que se está midiendo (por ejemplo el retardo local o internacional en el caso de Sutel), finalmente cómo se mide los aspectos de calidad (como medir la calidad del cliente en varios ambientes como el supermercado, centro comercial, hogar, etc.). 
+
+\quad En el caso de Sutel ellos tienen varios reglamentos que tienen que seguir y tomar en consideración. En lo que están midiendo ellos buscan 4 indicadores de calidad diferentes: el común que es como la atención de servicio y al cliente, el particular para servicios de voz que es como la calidad de voz a traves de una señal, el particular para servicios móviles que es como la cobertura y los mensajes de texto y el particular de acceso al internet que es como el tiempo de comunicación, transferencia de datos, retardos locales e internacionales. 
+
+\quad Sutel mide las sondas de las redes se mide a traves de computadoras pequeñas que miden en lugares de población densa. Las cajas tiene especificaciones de: CortexTM A15 (2 GHz) OctaCore(8 núcleos), 2GB de RAM, eMMC5.0 HS400 flash memory de Android de ROM, Realtek RTL8153 10/100/1000 Mbps de ethernet, Wifi Realtek RTL881 (802.11 a/b/g/n/ac) para WLAN (adaptador de wifi), Puerto USB 2.0 y una batería de 5V(Voltios) DC(Direct Current)/4A (Amperios). Para medir los operadores de internet y sus servicios estas cajas se colocan en la residencia de un panelista (persona que permite el acceso a la casa para estas mediciones) y con este se evalúa el servicio de internet de los operadores que llegan a ese lugar (como incentivo se le regala una suscripción al servicio) se hacen pruebas de caídas, retardos locales e internacionales. Para medir servicios móviles se pueden colocar en vehículos de transporte para que mientras atraviesan su ruta normal se mide la conexión inalámbrica de los diferentes servicios, esto se hace a traves de llamadas a un servidor (Los resultados se pueden ver en {\href{https://mapas.sutel.go.cr/}{\underline{https://mapas.sutel.go.cr/}}}{}). Para la medición de retardos internacionales se hacen con puntos de medición en varias partes del mundo donde ocurre la mayor transferencia de datos y se hacen llamadas de servidores, con esto se utiliza el servidor NIC Costa Rica o CRIX. 
+
+\quad Estas medidas permiten la creación del big data el cual según el presentador son cómodas para verificar y disipar la información al público (propósito que nos presenta) de manera de gráficas y un medio más fácil de comprender la información. Las diferentes informaciones se pueden ver en varios sitios web de Sutel: 
+\begin{itemize}
+    \item {\href{http://www.sutel.go.cr/pagina/redes-fijas-internet-fijo}{\underline{http://www.sutel.go.cr/pagina/redes-fijas-internet-fijo}}}{}
+    \item {\href{https://www.sutel.go.cr/pagina/redes-moviles-celulares}{\underline{https://www.sutel.go.cr/pagina/redes-moviles-celulares}}}{}
+    \item {\href{https://www.sutel.go.cr/pagina/percepcion-de-los-usuarios}{\underline{https://www.sutel.go.cr/pagina/percepcion-de-los-usuarios}}}{}
+    \item {\href{https://mapas.sutel.go.cr/}{\underline{https://mapas.sutel.go.cr/}}}{}
+    \item {\href{https://visorcalidad.sutel.go.cr/}{\underline{https://visorcalidad.sutel.go.cr/}}}{}
+\end{itemize}
+También se distribuyen panfletos anuales con la información recolectada y colocada en infografías. Para seguir evaluando diferentes aspectos de calidad Sutel necesita ayuda de diferentes cooperaciones, el ejemplo que nos presenta de una para calidad de experiencia es OpenSignal, en el cual los usuarios de la aplicación hacen las medidas de diferentes aspectos y estos se recolectan y se pueden distribuir en la cual Sutel utiliza en su búsqueda de disipar información al público. Esto de que se hace directamente desde el usuario deja que OpenSignal sea más dedicado a la experiencia que Sutel. Para ver los resultados ver: {\href{https://www.opensignal.com/es/reports/2021/12/costarica/mobile-network-experience}{\underline{https://www.opensignal.com/es/reports/2021/12/costarica/mobile-network-experience}}}{}. Finalmente, Sutel hace encuestas de percepción de calidad a traves de llamadas telefónicas (el presentador menciona como 700 encuestas por operador), estas se hacen para también poder presentarlo para uso general en las infografías.
+
+Extra: entre las preguntas el presentador indica que en comparación al resto del mundo Costa Rica está seriamente atrás en cuanto a los cambios que se tienen que hacer para tener internet 5G.
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section*{Conclusión}
+\phantomsection
+\addcontentsline{toc}{section}{Conclusión}
+
+\quad En conclusión, hay diferentes aspectos importantes que se tienen que tomar en cuenta a la hora de hacer cualquier evaluación de calidad, no solo en términos de encuestas, sino que hay otras maneras de medición (en este ejemplo se utilizan apps, servicios, sondas, servidores). Esto sirve para el futuro porque aunque no terminemos como ingenieros trabajando en telecomunicaciones, el mundo de la informática tiene un montón de diferentes areas que tienen que probarse y modificar constantemente, por ejemplo si yo termino siendo desarrollador de software se necesitaría hacer un proceso de "quality assessment" como el que hace Sutel con los diferentes servicios. Otra consideración que se tiene que tener para el futuro es que estos servicios de disipación de información son útiles a la hora de hacer consultas sobre diferentes aspectos, ya más enfocado a soporte, se podría ver pruebas de rendimiento y calidad para diferentes componentes a la hora de comprar/reemplazar algún componente de una computadora para mejor asesorar al cliente.
+
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+% \bibliography{ref}
+
+\end{document}

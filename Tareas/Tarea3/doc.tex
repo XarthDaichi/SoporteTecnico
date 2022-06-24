@@ -1,0 +1,239 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+
+\usepackage[os=win]{menukeys}
+\usepackage{fontawesome}
+\makeatletter
+\tw@make@key@box{OS@mac}{\faApple}
+\tw@make@key@box{OS@win}{\faWindows}
+\tw@make@key@macro*{\OS}
+\tw@make@key@box{capslock@win}{\textsf{CapsLock}}
+\tw@make@key@box{capslock@mac}{\textsf{caps lock}}
+\makeatother
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Tarea \#3\\
+    \vskip2cm
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    15 de junio, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+\section*{Introducción}
+\phantomsection
+\addcontentsline{toc}{section}{Introducción}
+En este laboratorio se va a ver tanto Linux como Android para darle un sentido más profundo a lo que es un sistema operativo y como se pueden utilizar.
+
+%------------------------------------------------------------------------------------
+\section*{Linux}
+\phantomsection
+\addcontentsline{toc}{section}{Linux}
+\begin{enumerate}
+    \addcontentsline{toc}{subsection}{¿Qué es el kernel?}
+    \item \textbf{¿Qué es el kernel?}
+    Un kernel es una parte esencial del sistema operativo, ofrece servicios básicos para otras partes del sistema operativo y es la conexión entre el sistema operativo y el hardware. Es diferente del shell y del BIOS. \maskCitep{kernelDefinition}. En mi experiencia el kernel es lo que puede causar problemas en una actualización del mismo como en entornos de escritorio y aspectos esenciales de configuración del GUI.
+
+    \addcontentsline{toc}{subsection}{¿Qué son las bibliotecas (librerias) del sistema? Indique algunos ejemplos de librerias}
+    \item \textbf{¿Qué son las bibliotecas (librerias) del sistema? Indique algunos ejemplos de librerias}
+    Son las bibliotecas que tienen funciones especiales o programas que son utilizadas por el kernel y contienen muchas de las funcionalidades del sistema operativo. \cite{systemLibraries}. Es como utilizar una biblioteca de c++ por ejemplo al usar math.h, uno puede utilizar la función pow() que no se puede normalmente usar, al menos de que la implemente usted mismo. Hay extensiones que se usan en Linux para las bibliotecas como: .a, .bin y .so y un ejemplo de algunas de estas bibliotecas de sistema es libc, que es la biblioteca estándar de C \maskCitep{exampleSystemLibraries}.
+    
+    \addcontentsline{toc}{subsection}{¿Cómo es el proceso de arranque de Linux?}
+    \item \textbf{¿Cómo es el proceso de arranque de Linux?}
+    Según \maskCitet{startUp}, los pasos son:
+    \begin{enumerate}
+        \item Comienza el BIOS
+        \item Comienza el Master Boot Record (registro de arranque maestro)
+        \item Comienza el GRUB (boot loader, gestor de arranque)
+        \item Comienza el kernel
+        \item Comienza el Init
+        \item Corre los programas Runlevel
+    \end{enumerate}
+    
+    \addcontentsline{toc}{subsection}{¿Qué es el registro de arranque maestro MBR?}
+    \item \textbf{¿Qué es el registro de arranque maestro MBR?}
+    Es la tabla de partición por defecto en el disco duro. Agarra la partición con el sistema operativo para arrancarlo. (\cite{MBR})
+
+    \addcontentsline{toc}{subsection}{¿Qué es el gestor de arranque (boot loader)?¿Cuáles son sus etapas?}
+    \item \textbf{¿Qué es el gestor de arranque (boot loader)?¿Cuáles son sus etapas?}
+    Boot loader es un programa que comienza los programas de arranque y que agarra el sistema operativo de la memoria cuando se prende la computadora \maskCitep{bootloaderDef}. La primera etapa es que carga la memoria y empieza a correr la segunda etapa desde la partición /boot/. La segunda etapa es que arranca el kernel en en la memoria que a la vez carga los módulos necesarios y monta la partición root en solo-lectura (\cite{bootloaderArranque}).
+    
+
+    \addcontentsline{toc}{subsection}{Indicar la diferencia entre CLI y el GUI}
+    \item \textbf{Indicar la diferencia entre CLI y el GUI}
+    El CLI (<<\textit{command line interface}>>) es una interfaz en el cual se ejecutan programas y se mueve por la máquina a traves de una linea de comandos. A diferencia el GUI (<<\textit{graphical user interface}>>) es una interfaz gráfica en el que el usuario puede moverse y ejecutar a traves de click en íconos. El CLI es más rápido que el GUI porque ocupa menos memoria del sistema, las tareas más avanzadas suelen utilizar la línea de comandos. \maskCitep{CLIvsGUI}
+
+    \addcontentsline{toc}{subsection}{¿Qué es GNOME?}
+    \item \textbf{¿Qué es GNOME?}
+    GNOME (GNU Network Object Model Environment, \cite{GNOME1}) es un entorno de escritorio para Linux. Es un FOSS (<<Free and Open Source Software>>) esto significa que se puede bajar el código, modificarlo y redistribuirlo. Al ser un entorno de escritorio que se puede modificar al gusto del usuario GNOME es un entorno de escritorio muy usado entre las distribuciones de Linux (visto por el montón de distros (Linux Distributions) que lo usan como su entorno por defecto, también trae un montón de aplicaciones hechas por desarrolladores de GNOME. (\cite{GNOME}). Personalmente he usado GNOME cuando corrí un tiempo con una instalación tanto de Manjaro Linux como de Pop!Os.
+
+    \addcontentsline{toc}{subsection}{¿Qué es KDE?}
+    \item \textbf{¿Qué es KDE?}
+    KDE (K Desktop Environment, \cite{KDE1}) es otro entorno de escritorio de Linux, también es FOSS como GNOME, se vende como <<The next generation desktop for Linux>>. Tiene muchísimos aspectos customizables. También tienen un montón de aplicaciones, según ellos más de 200 aplicaciones que son desarrolladas y mantenidas por la comunidad. (\cite{KDE}). Personalmente he usado KDE cuando corrí un tiempo con una instalación de Garuda Linux.
+
+    \addcontentsline{toc}{subsection}{Indicar y describir los comando más utilizados en Linux}
+    \item \textbf{Indicar y describir los comando más utilizados en Linux}
+    La fuente que voy a usar tiene 40 ejemplos para continuar explorando pero para efectos del laboratorio voy a mencionar y describir los primeros 10 (\cite{commands}). 
+    \begin{enumerate}
+        \item ls: Es la lista de contenidos del directorio, muestra sub-directorios y archivos. Se puede configurar los colores y otras cosas, ver las opciones con <<ls --help>>.
+        \item alias: es para configurar un comando frecuentemente utilizado por el usuario a ser algo más. Un ejemplo mostrado para esto es <<..>> para hacer <<cd ..>>. Usar como alias LoQueVoyAPoner="ElComandoQueQuieroUsar".
+        \item unalias: como el nombre indica es para quitale el alias a un comando configurado. unalias LoQueVoyAPoner ya no tendría como comando a ElComandoQueQuieroUsar.
+        \item pwd: <<print working directory>> es para mostar el directorio actual, útil por si hay un comando que requiera directorios como cp o mv, pero también por si se pierde entre los directorios. (Nota personal: usando OhMyZsh se puede configurar para que la terminal muestre el working directory antes del \$ en la línea de comandos).
+        \item cd: <<change directory>> Es para moverse entre los directorios, pone cd NuevoDirectorio y si existe el nuevo working directory va a ser NuevoDirectorio. (cd mueve a home directory, cd .. mueve al directorio por encima del working directory, cd - directorio anterior).
+        \item cp: Para copiar archivos o directorios. cp directorioOArchivoCopiando directorioDondeCopiar (si se está copiando directorios usar -r antes de directorioOArchivoCopiando, para usar la opción recursiva que copia todos los sub-directorios del directorio también).
+        \item rm: se usa para remover un directorio o archivo, también usar la opción -r para remover todo lo que está dentro de un directorio, si el directorio tiene archivos o algo más dentro usar -rf, recursivo y forzado.
+        \item mv: se usa para mover un directorio o archivo, usar de igual que el cp, solo que con mv. mv directorioOArchivoCopiando directorioDondeCopiar. Si se usa en el mismo working directory con un nombre diferente se le cambia el nombre al archivo o directorio. Usar ./ para usar working directory con facilidad.
+        \item mkdir: <<make directory>> se usa para crear directorios nuevos. para crear subdirectorios usar -p.
+        \item man: para ver el manual de uso de algún comando.
+    \end{enumerate}
+    
+
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+\section*{Otros sistemas operativos (puede ser para TV, dispositivo móvil, automóvil, videojuego)}
+\phantomsection
+\addcontentsline{toc}{section}{Otros sistemas operativos (puede ser para TV, dispositivo móvil, automóvil, videojuego)}
+
+Para esta sección voy a analizar a Android (\cite{android}).
+
+\begin{enumerate}
+    \addcontentsline{toc}{subsection}{Dispositivo en el que se puede ejecutar}
+    \item \textbf{Dispositivo en el que se puede ejecutar}
+    Android se puede usar para el teléfonos, tabletas, relojes, televisiones y hasta para el carro. Es en lo que se basa el GPS, es lo que deja que los relojes texteen y que el asistente de google responda preguntas.
+
+    \addcontentsline{toc}{subsection}{Comunidad y Soporte}
+    \item \textbf{Comunidad y Soporte}
+    Android es un sistema operativo abierto lo cual significa que varias personas pueden experimentar, tanto como desarrolladores, diseñadores y creadores de dispositivos. Por este motivo también tiene una comunidad masiva (además del típico Android versus Apple para celulares). \cite{androidCommunity}. Personalmente he brevemente tocado Android Studio y se que mchas preguntas se pueden responder en los foros.
+
+
+    \addcontentsline{toc}{subsection}{Usabilidad}
+    \item \textbf{Usabilidad}
+    En mi opinión la usabilidad de android es bastante sencilla de usar, si uno no modifica mucho no le encontraría muchas diferencias aparte de estética a IOS. Utiliza un package manager llamado el app store donde la gente busca e instala lo que necesita. Además debido al montón de gente que usa android no me sorprendería saber que otra gente opina lo mismo. 
+
+    \addcontentsline{toc}{subsection}{Funcionalidad}
+    \item \textbf{Funcionalidad}
+    Android tiene una funcionalidad extensiva, no solo se puede modificar porque tiene tantas diferentes configuraciones y o maneras de instalar algún extra que siempre puede soportar muchas cosas. Asumo que es parte de lo que deja que Android se use para tantos dispositivos diferentes. Otra funcionalidad que se me hizo saber en programación 2 es que las aplicaciones de Android trabajan con Singletons y estados entonces el consumo de memoria no es tanta lo cuál es un beneficio que le deja portar a varios aparatos diferentes dado a que no se le puede solo meter RAM sticks como en una computadora a un celular o aparato GPS.
+
+    
+    \addcontentsline{toc}{subsection}{Características técnicas que debe tener el dispositivo donde se instalará}
+    \item \textbf{Características técnicas que debe tener el dispositivo donde se instalará}
+    No encontré requisítios para que un dispositivo pueda correr android, pero puedo otrogar un ejemplo para ver cuanto más o menos se necesita. Tengo una tableta no muy potente, entonces lo podemos usar como para caso base. La tableta es alcatel 1T10 Smart y corre android 10.
+    \begin{itemize}
+        \item Tiene 2GB de RAM, y algunas aplicaciones como youtube a veces me corren lento, el comienzo y abrir también aunque no haya nada abierto. 2GB puede ser considerado un mínimo para que corra.
+        \item Tiene 4 núcleos, pero hace un rato tenía un teléfono con dos núcleos si no me equivoco entonces eso no es necesariamente un requisito.
+        \item Tiene 32GB de RAM y le he instalado varias aplicaciones y tengo varios documentos de la Universidad y no estoy cerca de llenarlo. Para efectos de que Andorid puede correr en una máquina virtual con Android Studio asumamos que el mínimo es 8GB (lo recomendado por virtualBox)
+        \item La tablet además tiene 4080mAh para la batería y se gasta relativamente rápido entonces se asume que le llega un poco al límite de la capacidad necesaria para la batería.
+    \end{itemize}
+    
+    \addcontentsline{toc}{subsection}{Operaciones básicas que se pueden realizar con el SO}
+    \item \textbf{Operaciones básicas que se pueden realizar con el SO}
+    Para las operaciones básicas google ofrece esta \href{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi4wMPxm7H4AhVSDEQIHbPMDUYQFnoECAMQAQ&url=https%3A%2F%2Fwww.google.com%2Fhelp%2Fhc%2Fimages%2Fandroid%2Fandroid_ug_50%2FAndroid-Lollipop-Quick-Start-Guide.pdf&usg=AOvVaw21ccumKA5SleZksbFWmmBN}{\textcolor{blue}{guía}} para comenzar a usar el teléfono, considerando que el teléfono es una de las instalaciones de mayor frecuencia del sistema operativo podemos extrapolar elementos específicos.
+    \begin{itemize}
+        \item Tiene Youtube, considerando que tanto mi teléfono, Huawei que aun tiene Android y televisión AIWA también lo trae. Entonces tiene un reproductor de audio/video.
+        \item Google play se considera en la guía y esto si existe para teléfonos, pero no existe para el televisor.
+        \item Se pueden instalar aplicaciones, tanto por el google play como descargar un .apk (aunque por alguna razón mi televisor aiwa no deja ninguna de los dos).
+        \item Conexiones sea Bluetooth o internet, varios relojes tienen Bluetooth para conectar a los celulares y mi televisor tiene acceso al internet. Entonces tiene que tener drivers para poder usarlos.
+        \item Tiene para poder afectar la luminosidad del dispositivo que se usa tanto mi celular como el televisor tienen configuraciones de <<brightness>>.
+        \item Los dos tienen directorios, mi celular tiene una aplicación que se llama files, mientras que mi televisor tiene uno que se llama media.
+    \end{itemize}
+    
+    \addcontentsline{toc}{subsection}{Versionas: aplicaciones, ambientes, mejoras con respecto a versiones previas}
+    \item \textbf{Versionas: aplicaciones, ambientes, mejoras con respecto a versiones previas}
+    Según \cite{androidVersions}, android 12 (la versión más reciente para desarrolladores que no está en beta) tiene cambios de privacidad y seguridad (como es normalmente, ver windows update por ejemplo), y cambios al rendimiento que menciona que puede afectar algunas apps. Para APIs se dice que tienen Material You para creación de apps más <<bellas>>, tienen mejoras a los <<widgets>>, mejoras a las esquinas redondeadas, mejoras al <<clipboard, teclado, y el agarra y arrastra>>.
+    
+    \addcontentsline{toc}{subsection}{Características (plataformas, requisitos, procesadores)}
+    \item \textbf{Características (plataformas, requisitos, procesadores)}
+    Según \cite{andorid2} android trae, correo electrónico, SMS, calendario, mapas, navegador, contactos, etc. (Java). El trabajo de aplicaciones porque la arquitectura está hecha simple para reutilizar componentes. Tiene bibliotecas en C/C++. Cada aplicación de android corra con su propio proceso con una máquina virtual de Dalbik. Utiliza el kernel de Linux. Otros: Usa OpenCore, SQLite, OpenGL ES, etc.
+    
+    \addcontentsline{toc}{subsection}{Administrador de tareas Monitor de sistema}
+    \item \textbf{Administrador de tareas Monitor de sistema}
+    Como la arquitectura está hecha para reutilizar y las aplicaciones trabajan con Singleton siempre hay una instancia trabajando en todo momento para las aplicaciones en general. Esto significa que aunque esté en el menú de aplicaciones "abiertas", no están realmente corriendo sino que suspendidas con un impedimento por correr, cuando uno ve las aplicaciones que abrió en el teléfono y las va eliminando ese es el administrador de tareas. \maskCitep{andoridTaskManager}. Una búsqueda muestra que no trae un monitor de sistema pre-instalado, hay que descargarlo desde el play store, como instalar htop en algunas distribuciones de Linux.
+
+
+    \addcontentsline{toc}{subsection}{BIOS (integración y fundamento como soporte para el SO)}
+    \item \textbf{BIOS (integración y fundamento como soporte para el SO)}
+    Hay varios foros con preguntas del estilo que si Android utiliza BIOS para sus dispositivos (\cite{androidBIOS}), los que he visto presentan la misma idea, que no, Android no utiliza una BIOS sino que el arranque está más linkeado con el firmware del sistema operativo que un programa para arrancar, osea sin BIOS o boot loader.
+
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+\section*{Conclusión}
+\phantomsection
+\addcontentsline{toc}{section}{Conclusión}
+En este laboratorio se aprendió y verificó información previamente adquirida por experimentación sobre Linux. Además se habló sobre otros sistemas operativos, específicamente en este caso Android y la variabilidad de casos en los que se puede usar en tantos dispositivos diferentes. Un dato que me llamó la atención es que aparentemente los celulares no utilizar un BIOS como tal sino que el arranque e integración viene como parte del firmware integrado que tienen los dispositivos. Con forme van evolucionando estas nuevas tecnologías también los sistemas operativos y incrementan las posibilidades de uso.
+
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{ref}
+
+\end{document}

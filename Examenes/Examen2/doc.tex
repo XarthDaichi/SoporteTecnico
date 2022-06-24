@@ -1,0 +1,203 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel}
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+
+\usepackage[os=win]{menukeys}
+\usepackage{fontawesome}
+\makeatletter
+\tw@make@key@box{OS@mac}{\faApple}
+\tw@make@key@box{OS@win}{\faWindows}
+\tw@make@key@macro*{\OS}
+\tw@make@key@box{capslock@win}{\textsf{CapsLock}}
+\tw@make@key@box{capslock@mac}{\textsf{caps lock}}
+\makeatother
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Examen \#2\\
+    \vskip2cm
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    22 de junio, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+% \section*{Introducción}
+% \phantomsection
+% \addcontentsline{toc}{section}{Introducción}
+
+
+%------------------------------------------------------------------------------------
+
+% Test of capslock: \keys{\capslock}, \keys{\capslockwin}, \keys{\capslockmac}, \capslock, \capslockwin, \capslockmac
+
+% \strut
+
+% Test of OS key: \keys{\OS}, \keys{\OSwin}, \keys{\OSmac}, \OS, \OSwin, \OSmac
+
+
+%------------------------------------------------------------------------------------
+\section*{Investigación}
+\phantomsection
+\addcontentsline{toc}{section}{Investigación}
+
+\subsection*{Un usuario tiene una computadora con 500 GB de disco duro y 8 GB de RAM (64 bits ) y desea instalar un sistema operativo, pero no sabe cuál elegir:}
+\phantomsection
+\addcontentsline{toc}{subsection}{Un usuario tiene una computadora con 500 GB de disco duro y 8 GB de RAM (64 bits ) y desea instalar un sistema operativo, pero no sabe cuál elegir:}
+\begin{enumerate}
+    \item ¿Cuál SO le recomendaría usted? Justifique su respuesta 2 puntos \\
+    \quad Depende del uso que quiera utilizar la persona. Si es para uso cotidiano (ver videos, videojuegos, trabajar) yo le recomendaría instalar Windows en cualquiera de sus últimas versiones (visualmente se ve muy bien Windows 11 y de uso personal sirve bien, pero entiendo si prefiere utilizar el más conocido que sería Windows 10). Esto lo recomiendo porque mucho programas requieren un sistema operativo específico, como Linux utiliza mucho programa GNU entonces algunas funcionalidades no se han portado, como Photoshop, en Linux se utilizaría Gimp en vez de Photoshop y si el usuario tiene experiencia con Photoshop puede ser un cambio no esperado en el flujo de trabajo. Windows además lo utiliza más gente entonces los problems son más fáciles de pedir ayuda. Si quiere programar o utilizar un programa con menos gasto de memoria y almacenamiento (importante para los 8GB de RAM y los 500 GB de disco duro que Linux frecuentemente utiliza menos archivos base del sistema operativo), en este caso a mi me gustan más como sirven las isntalaciones de Arch, Manjaro sería la versión para más principiantes, pero Ubuntu es muy buena opción para primer ingreso al mundo de Linux por el soporte. Es importante notar que si la persona no tiene mucha experiencia es mejor irse por Windows.
+
+    \item ¿Cuáles programas de aplicación o utilitarios le recomendaría instalar? Describa cada uno de ellos 3 puntos \\
+    \quad Primero puede instalar el navegador de preferencia (Firefox, por personalización, y Chrome, por compatibilidad con servicios Google, siempre son buena opción para Windows y Linux normalmente trae Firefox por defecto), seguido por instalación de drivers. Para esto en Windows hay que meterse por el navegador a la página del manufacturador de su tarjeta madre e instalar los drivers recomendados para su máquina, personalmente utilizo una laptop Asus, entonces yo entraría a Asus e instalaría los drivers más recientes de mi modelo de laptop y para Linux ingresar al <<package manager>> y buscar drivers para tarjeta madre si hay, tarjeta gráfica si tiene, drivers de video, audio. Después de estos pasos puede seguir instalando lo que quiera o empezar a utilizar a gusto propio.
+\end{enumerate}
+
+\subsection*{El usuario quiere tener otro SO instalado en su computadora,}
+\phantomsection
+\addcontentsline{toc}{subsection}{El usuario quiere tener otro SO instalado en su computadora,}
+
+\begin{enumerate}
+    \item ¿cuál sería el otro sistema operativo que usted le recomienda? Justifique su respuesta 2 puntos \\
+    \quad Utilizaría el opuesto al que eligió en la primera pregunta. Esto es porque le deja tener lo mejor de los dos mundos por lo previamente mencionado (compatibilidad de Windows con programas y eficiencia de Linux).
+    \item ¿Haría una partición en el disco duro para realizar un arranque dual o instalaría una máquina virtual? Justifique su respuesta 3 puntos \\
+    \quad Dado a que se está utilizando la combinación de Windows/Linux entonces utilizaría una máquina virtual, he personalmente utilizado una arranque doble y es tedioso tener que reiniciar cada vez que quiera utilizar el otro. Lo haría de manera Windows como sistema base y Linux en la máquina virtual, o mejor aún usaría WSL para poder utilizarlo como parte de Windows.
+    \item ¿Cuáles son los pasos que seguiría para realizar la instalación en la partición o en la máquina virtual? 5 puntos \\
+    Para la máquina virtual
+    \begin{enumerate}
+        \item Buscar el iso de la distribución de preferencia, reiterando \href{https://manjaro.org/download/}{Manjaro} es mi preferido, pero \href{https://ubuntu.com/download}{Ubuntu}, (para instalar WSL lo puede hacer directamente en la tienda de microsoft) sirve bien para la gente más novata.
+        \item Instalar \href{https://www.virtualbox.org/wiki/Downloads}{VirtualBox}
+        \item En VirtualBox crear una máquina virtual nueva y seguir los pasos de creación (las opciones de defecto son suficientemente buenas normalmente).
+        \item Correr la máquina e ingrasar el .iso que instaló
+        \item Siga los pasos de instalación
+        \item Disfrute el sistema operativo. Para una guía puede utilizar \cite{NetworkChuck2021Jan} (el señor explica para que instalar y como en unos pasos que me gustan).
+    \end{enumerate}
+\end{enumerate}
+
+\subsection*{Una empresa quiere abrir una oficina con 10 estaciones de trabajo:}
+\phantomsection
+\addcontentsline{toc}{subsection}{Una empresa quiere abrir una oficina con 10 estaciones de trabajo:}
+
+\begin{enumerate}
+    \item ¿Qué impresora recomendaría para la oficina? Justificar la elección de la impresora e indicar ventajas, desventajas y mantenimiento. 5 puntos \\
+    Dado a que es una oficina, recomendaría una impresora laser, como menciona \maskCitet{impresoras}, las impresoras a pesar de su precio elevado en cuanto a tinta y la máquina tiene una velocidad alta lo cuál es importante para una oficina. Usando \cite{laserPrinters}, para buscar las mejores impresoras modernas, podemos ver: \begin{itemize}
+        \item Lexmark MB3442adw es la mejor impresora, imprime 40 páginas por minuto, capacidad de 550 hojas y se conecta el internet (entonces se puede conectar a un servidor), pero cuesta \$1399 y no imprime a color.
+        \item Xerox WorkCentre 6515dni es la que yo recomendaría de las primeras 4 opciones porque puede escanear, fax, hacer copias, tiene opción para color, dice que conecta hasta 7 personas, pero se puede arreglar con un servidor y a diferencia del primero cuesta \$749, pero hace 28 páginas por minuto y solo capacidad de 250 hojas.
+        \item Si necesita una versión aún más económica puede buscar HP LaserJet Pro M15w printer, cuestan como \$150, pueden conectar al internet, pero no tiene para escanera, copiar, hacer fax y las velocidades son solo 18 páginas por minuto con una capacidad de 150 hojas.
+    \end{itemize}
+    \item ¿Cuál tipo de protección eléctrica recomendaría para la oficina? Justificar la elección e indicar ventajas y desventajas 5 puntos \\ 
+    Verificando con \maskCitet{protElec}, una UPS es lo que probablemente se busque más son las UPSs porque protegen de apagones, que en especial para impresoras que son tan delicadas puede ser muy útil. Una búsqueda rápida de Amazon muestra que \href{https://www.amazon.com/CyberPower-CP1500AVRLCD-Intelligent-Outlets-Mini-Tower/dp/B000FBK3QK/ref=sr_1_4?crid=1XFT4950W6LAN&keywords=UPS&qid=1655930639&sprefix=ups%2Caps%2C168&sr=8-4&th=1}{CyberPower CP1500AVRLCD Intelligent LCD UPS System, 1500VA/900W, 12 Outlets, AVR, Mini-Tower} es la recomendación de Amazon y me gustaría aceptarla, tiene para conectar hasta 12 máquinas (10 máquinas más la impresora cabe en esto) y tiene regulamiento de voltaje incluido, pero tiene uno de los mejores VA en las opciones de Amazon. Realísticamente diciendo que tiene máquinas de 250 W, es un VA mínimo de 4531.25 VA para todas las máquinas entonces comprar varios para conectar todo seguramente, entonces tal vez quiera downgrade a un \href{https://www.amazon.com/CyberPower-ST900U-Standby-Outlets-Charging/dp/B07GZT2QW7/ref=sr_1_3_mod_primary_new?crid=32M201SGL1VBR&keywords=UPS%2B10%2Boutlet&qid=1655931514&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=ups%2B10%2Boutlet%2Caps%2C150&sr=8-3&th=1}{CyberPower ST900U Standby UPS System, 900VA/500W, 12 Outlets, 2 USB Charging Ports, Compact} para ahorrar como 70 dólares por UPS, pero le quita el regulamiento de voltaje.
+\end{enumerate}
+%------------------------------------------------------------------------------------
+\section*{Exposición de los compañeros}
+\phantomsection
+\addcontentsline{toc}{section}{Exposición de los compañeros}
+
+Esta sección se debe contestar con la información brindada por los grupos de trabajo durante las exposiciones
+
+\begin{enumerate}
+    \item Indique las diferencias entre ataque de fuerza bruta y ataque de diccionario 5 puntos \\
+    El ataque de diccionario va a intentar cadenas numéricas como fechas o días importantes para la persona, nombres importantes para la persona y palabras simples como el común <<password>>, esto lo hace más efectivo que el de fuerza bruta pero al intentar entre estas posibilidades entonces usando puede ser que se esquive el de diccionario, pero no el de fuerza bruta (rapidez vs. completitud) \maskCitep{cibersec2}.
+    
+    \item ¿Qué es blockchain? 3 puntos \\
+    El blockchain es una base de datos descentralizada donde los ordenadores sirven como nodos y guardan copias de las transacciones que ocurren y libretas del usuario para ver las transacciones que ha hecho. Se usa para criptomonedas pero también sirve para hacer transacción de varios tipos de archivos diferentes. Es seguro porque para hacer una transacción verifica que el número de tu libreta es igual a la que todos los ordenadores verifican en sus copias \maskCitep{bitcoin}.
+    
+    \item ¿Para qué sirve la desfragmentación de discos duros? Explique el proceso de desfragmentación 5 puntos \\
+    El proceso de desfragmentación sirve para ordenar los ficheros de manera que estén almacenados de manera secuencial para que la búsqueda sea óptima y no se utilicen recursos extra. La manera en la que hace es colocando información en una parte de la información y meterla en el sector correcto para que la información quede secuencial, claro físicamente el disco duro está cambiando con el imán para hacer que el proceso sea posible, cambiando polaridades para que queden unos y ceros como se quiera tenerlos y con la información necesaria \maskCitep{fragDisc}.
+
+    \item Mencione 3 características deseables de los navegadores 3 puntos \\
+    Usando la información de \maskCitet{navegadores}
+    \begin{itemize}
+        \item El navegador tiene la capacidad de visualizar la primera pantalla mientras importa el resto de la información en la página, esto permite que las personas naveguen y obtengan información en una manera más rápida.
+        \item Crear una lista de direcciones (marcadores) para poder visitar páginas recientes o frecuentes con mayor facilidad, no tener que copiar todo el URL todas las veces.
+        \item Capacidad para almacenar páginas en el disco duro, tanto como las páginas iniciales como las de origen se pueden guardar, sirve para guardar donde visitó (historial muy útil) y para poder modificar para creación de página personal. 
+    \end{itemize} 
+    
+    \item Explique los diferentes tipos de hackers. Sea específico 4 puntos \\
+    Según la información de \maskCitet{cybersec1}, primero que todo la persona <<hacker>> se define como persona que usa equipos de cómputo para hacer actos ilegales relacionadas a la informática.
+    \begin{itemize}
+        \item Sombrero Negro: los que roban o capturan información de varios tipos de máquinas (empresas, gubernamental o personales), utiliza la información para publicar, extorsionar o venderla.
+        \item Sombrero Blanco: o el <<hacker ético>> son los que ingresan a redes o sistemas y exponen la vulnerabilidades y lo usan para el bien. Usan los mismos métodos que los de sombrero negro, pero tienen autorización del propietario. Normalmente son empleados.
+        \item Hacktivismo: utilizan los métodos de los sombreros negros, pero son blancos en el sentido en el que lo hacen por un bien moral.
+    \end{itemize}
+    Otros tipos no mencionados son como los hackers de sombrero gris (entran sin permiso, pero le avisan sobre los problemas a los propietarios, a veces pidiendo recompensa), ciberterroristas (hackers que cometen actos terrorísticos de la informática).
+
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+% \section*{Conclusión}
+% \phantomsection
+% \addcontentsline{toc}{section}{Conclusión}
+\nocite{UPS1}\nocite{UPS2}\nocite{Manjaro}\nocite{Ubuntu}\nocite{VirtualBox}
+
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{ref}
+
+\end{document}

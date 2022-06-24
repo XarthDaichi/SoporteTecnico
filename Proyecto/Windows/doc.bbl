@@ -1,0 +1,100 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Adeva%
+}{%
+Adeva%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+versionesWindows}
+\APACinsertmetastar {%
+versionesWindows}%
+\begin{APACrefauthors}%
+Adeva, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\APACrefbtitle {{Todas las versiones de Windows a lo largo de la historia}.}
+  {{Todas las versiones de Windows a lo largo de la historia}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.adslzone.net/esenciales/windows-10/versiones-windows/amp}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Legu{\ifmmode\acute{\imath}\else\'{\i}\fi}zamo%
+}{%
+Legu{\ifmmode\acute{\imath}\else\'{\i}\fi}zamo%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+DatosCuriososWin1}
+\APACinsertmetastar {%
+DatosCuriososWin1}%
+\begin{APACrefauthors}%
+Legu{\ifmmode\acute{\imath}\else\'{\i}\fi}zamo, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{10 datos curiosos de Windows 1.0 para celebrar sus 30
+  a{\ifmmode\tilde{n}\else\~{n}\fi}os}} {{10 datos curiosos de Windows 1.0 para
+  celebrar sus 30 a{\ifmmode\tilde{n}\else\~{n}\fi}os}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{C{\ifmmode\acute{o}\else\'{o}\fi}digo Espagueti}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://codigoespagueti.com/noticias/10-datos-curiosos-de-windows-1-0}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rouse%
+}{%
+Rouse%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+QueEsWindows}
+\APACinsertmetastar {%
+QueEsWindows}%
+\begin{APACrefauthors}%
+Rouse, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Microsoft Windows}} {{Microsoft Windows}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ComputerWeekly.es}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.computerweekly.com/es/definicion/Microsoft-Windows#:~:text=Windows%20es%20el%20sistema%20operativo,como%20se%20describe%20a%20continuaci%C3%B3n}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{What is Windows?}}}{%
+\APACcitebtitle {{What is Windows?}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+WhatIsWindows}
+\APACinsertmetastar {%
+WhatIsWindows}%
+\APACrefbtitle {{What is Windows?}} {{What is Windows?}}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{02}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.computerhope.com/jargon/w/windows.htm}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 25. May 2022]}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

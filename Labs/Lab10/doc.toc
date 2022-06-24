@@ -1,0 +1,22 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{section*.1}%
+\contentsline {section}{Configuración}{1}{section*.2}%
+\contentsline {subsection}{¿Cómo acceder a la configuración de Windows?}{1}{section*.3}%
+\contentsline {subsection}{¿Qué recomendaciones le daría a un usuario para proteger al máximo su privacidad?}{1}{Item.1}%
+\contentsline {subsection}{Cree un pequeño manual explicando los diferentes componentes de la configuración (qué es, para qué sirve, componentes)}{2}{Item.2}%
+\contentsline {section}{Modo recuperación}{3}{section*.4}%
+\contentsline {subsection}{¿Qué se puede hacer en el modo recuperación?}{3}{section*.5}%
+\contentsline {section}{Pantalla azul de la muerte}{4}{section*.6}%
+\contentsline {subsection}{¿Qué le puede recomendar a un usuario si le sale la pantalla azul de la muerte?}{4}{section*.7}%
+\contentsline {subsection}{¿Cuáles son los mensajes más frecuentes de la pantalla azul de la muerte?}{5}{Item.4}%
+\contentsline {section}{Virus/Antivirus}{5}{section*.8}%
+\contentsline {subsection}{¿Qué es un virus informático?}{5}{section*.9}%
+\contentsline {subsection}{Historia de los virus}{6}{Item.6}%
+\contentsline {subsection}{¿Cuáles han sido los virus más dañinos?}{6}{Item.7}%
+\contentsline {subsection}{¿Qué es malware, virus, gusanos, spyware, troyanos, ransomware, scareware?}{7}{Item.13}%
+\contentsline {subsection}{Realizar una lista de los antivirus más utilizados}{8}{Item.14}%
+\contentsline {subsection}{Realizar una lista de los antimalware más utilizados}{8}{Item.15}%
+\contentsline {subsection}{¿Cuál es la mejor manera de tener su equipo libre de virus? Justificar}{9}{Item.16}%
+\contentsline {section}{Conclusión}{9}{section*.10}%
+\contentsline {section}{\large \textbf {Referencias}}{10}{section*.11}%

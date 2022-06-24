@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: doc.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ref.bib
+Warning--entry type for "CreateABootableDriveWindows" isn't style-file defined
+--line 15 of file ref.bib
+Warning--entry type for "SoftwareUSBFlashDrive" isn't style-file defined
+--line 23 of file ref.bib
+Warning--entry type for "FileExtension" isn't style-file defined
+--line 50 of file ref.bib
+Warning--entry type for "ISOConverters" isn't style-file defined
+--line 57 of file ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 6 entries,
+            6951 wiz_defined-function locations,
+            1302 strings with 11627 characters,
+and the built_in function-call counts, 10172 in all, are:
+= -- 1442
+> -- 30
+< -- 408
++ -- 364
+- -- 10
+* -- 523
+:= -- 1640
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 111
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 163
+empty$ -- 470
+format.name$ -- 42
+if$ -- 2114
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 0
+newline$ -- 118
+num.names$ -- 24
+pop$ -- 128
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 988
+stack$ -- 0
+substring$ -- 383
+swap$ -- 88
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 840
+warning$ -- 0
+while$ -- 33
+width$ -- 0
+write$ -- 135
+(There were 4 warnings)

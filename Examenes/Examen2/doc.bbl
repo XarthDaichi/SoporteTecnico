@@ -1,0 +1,320 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Baltodano%
+, Ramírez%
+\BCBL {}\ \BBA {} Badilla%
+}{%
+Baltodano%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+cibersec2}
+\APACinsertmetastar {%
+cibersec2}%
+\begin{APACrefauthors}%
+Baltodano, J\BPBI J\BPBI P.%
+, Ramírez, A\BPBI S.%
+\BCBL {}\ \BBA {} Badilla, B\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Brute Forcing Attack.} {Brute forcing attack.}
+\newblock
+\APACrefnote{Exposiciones de compañeros}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{CyberPower CP1500AVRLCD Intelligent LCD UPS System,
+  1500VA/900W, 12 Outlets, AVR, Mini-Tower}}}{%
+\APACcitebtitle {{CyberPower CP1500AVRLCD Intelligent LCD UPS System,
+  1500VA/900W, 12 Outlets, AVR, Mini-Tower}}}{%
+{\protect \APACyear {2020}}%
+}]{%
+UPS1}
+\APACinsertmetastar {%
+UPS1}%
+\APACrefbtitle {{CyberPower CP1500AVRLCD Intelligent LCD UPS System,
+  1500VA/900W, 12 Outlets, AVR, Mini-Tower}.} {{CyberPower CP1500AVRLCD
+  Intelligent LCD UPS System, 1500VA/900W, 12 Outlets, AVR, Mini-Tower}.}
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.amazon.com/CyberPower-CP1500AVRLCD-Intelligent-Outlets-Mini-Tower/dp/B000FBK3QK}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{CyberPower ST900U Standby UPS System, 900VA/500W, 12 Outlets,
+  2 USB Charging Ports, Compact}}}{%
+\APACcitebtitle {{CyberPower ST900U Standby UPS System, 900VA/500W, 12 Outlets,
+  2 USB Charging Ports, Compact}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+UPS2}
+\APACinsertmetastar {%
+UPS2}%
+\APACrefbtitle {{CyberPower ST900U Standby UPS System, 900VA/500W, 12 Outlets,
+  2 USB Charging Ports, Compact}.} {{CyberPower ST900U Standby UPS System,
+  900VA/500W, 12 Outlets, 2 USB Charging Ports, Compact}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.amazon.com/CyberPower-ST900U-Standby-Outlets-Charging/dp/B07GZT2QW7}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Downloads {\textendash} Oracle VM VirtualBox}}}{%
+\APACcitebtitle {{Downloads {\textendash} Oracle VM VirtualBox}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+VirtualBox}
+\APACinsertmetastar {%
+VirtualBox}%
+\APACrefbtitle {{Downloads {\textendash} Oracle VM VirtualBox}.} {{Downloads
+  {\textendash} Oracle VM VirtualBox}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.virtualbox.org/wiki/Downloads}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fernández%
+}{%
+Fernández%
+}{%
+{\protect \APACyear {2022}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+impresoras}
+\APACinsertmetastar {%
+impresoras}%
+\begin{APACrefauthors}%
+Fernández, C\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {Dispositivos de entrada y salida.} {Dispositivos de entrada y
+  salida.}
+\newblock
+\APACrefnote{Documentos de clase}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fernández%
+}{%
+Fernández%
+}{%
+{\protect \APACyear {2022}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+protElec}
+\APACinsertmetastar {%
+protElec}%
+\begin{APACrefauthors}%
+Fernández, C\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {Protección eléctrica de equipos de cómputo.} {Protección
+  eléctrica de equipos de cómputo.}
+\newblock
+\APACrefnote{Documentos de clase}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Get Ubuntu {$\vert$} Download {$\vert$} Ubuntu}}}{%
+\APACcitebtitle {{Get Ubuntu {$\vert$} Download {$\vert$} Ubuntu}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Ubuntu}
+\APACinsertmetastar {%
+Ubuntu}%
+\APACrefbtitle {{Get Ubuntu {$\vert$} Download {$\vert$} Ubuntu}.} {{Get Ubuntu
+  {$\vert$} Download {$\vert$} Ubuntu}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://ubuntu.com/download} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+A\BPBI C.~Gutiérrez%
+\ \BBA {} Jara%
+}{%
+A\BPBI C.~Gutiérrez%
+\ \BBA {} Jara%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+fragDisc}
+\APACinsertmetastar {%
+fragDisc}%
+\begin{APACrefauthors}%
+Gutiérrez, A\BPBI C.%
+\BCBT {}\ \BBA {} Jara, D\BPBI U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Fragmentación de Discos Duros.} {Fragmentación de discos
+  duros.}
+\newblock
+\APACrefnote{Exposiciones de compañeros}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+P\BPBI A\BPBI V.~Gutiérrez%
+}{%
+P\BPBI A\BPBI V.~Gutiérrez%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+navegadores}
+\APACinsertmetastar {%
+navegadores}%
+\begin{APACrefauthors}%
+Gutiérrez, P\BPBI A\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Navegadores.} {Navegadores.}
+\newblock
+\APACrefnote{Exposiciones de compañeros}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Manjaro Downloads}}}{%
+\APACcitebtitle {{Manjaro Downloads}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Manjaro}
+\APACinsertmetastar {%
+Manjaro}%
+\APACrefbtitle {{Manjaro Downloads}.} {{Manjaro Downloads}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://manjaro.org/download} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+May%
+}{%
+May%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+laserPrinters}
+\APACinsertmetastar {%
+laserPrinters}%
+\begin{APACrefauthors}%
+May, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The best laser printers in 2022 for office, studio and
+  home use}} {{The best laser printers in 2022 for office, studio and home
+  use}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{digitalcameraworld}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.digitalcameraworld.com/buying-guides/best-laser-printer}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Muñóz%
+, Medina%
+\BCBL {}\ \BBA {} Delgado%
+}{%
+Muñóz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+cybersec1}
+\APACinsertmetastar {%
+cybersec1}%
+\begin{APACrefauthors}%
+Muñóz, E\BPBI V.%
+, Medina, I\BPBI P.%
+\BCBL {}\ \BBA {} Delgado, K\BPBI Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Tópicos de la ciberseguridad.} {Tópicos de la
+  ciberseguridad.}
+\newblock
+\APACrefnote{Exposiciones de compañeros}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NetworkChuck%
+}{%
+NetworkChuck%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+NetworkChuck2021Jan}
+\APACinsertmetastar {%
+NetworkChuck2021Jan}%
+\begin{APACrefauthors}%
+NetworkChuck.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{01}}}{}.
+\newblock
+\APACrefbtitle {{you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM,
+  Ubuntu, Windows)}.} {{you need to learn Virtual Machines RIGHT NOW!! (Kali
+  Linux VM, Ubuntu, Windows)}.}
+\newblock
+\APACaddressPublisher{}{Youtube}.
+\newblock
+\begin{APACrefURL} \url{https://www.youtube.com/watch?v=wX75Z-4MEoM}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Solano%
+\ \BBA {} Quintana%
+}{%
+Solano%
+\ \BBA {} Quintana%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+bitcoin}
+\APACinsertmetastar {%
+bitcoin}%
+\begin{APACrefauthors}%
+Solano, A\BPBI G.%
+\BCBT {}\ \BBA {} Quintana, P\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Criptomonedas.} {Criptomonedas.}
+\newblock
+\APACrefnote{Exposiciones de compañeros}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

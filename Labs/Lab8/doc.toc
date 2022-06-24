@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{1}{section*.1}%
+\contentsline {section}{Hacer un Booteable USB}{1}{section*.2}%
+\contentsline {section}{Investigación}{6}{section*.8}%
+\contentsline {subsection}{¿Qué es un USB booteable?}{6}{Item.8}%
+\contentsline {subsection}{¿Qué otros programas (además de los mencionados aquí) se pueden utilizar para crear una USB booteable?}{6}{Item.9}%
+\contentsline {subsection}{De la lista anterior, ¿Cuál programa le parece mejor? ¿Por qué?}{7}{Item.10}%
+\contentsline {subsection}{¿Cuáles usos se le puede dar a una USB booteable?}{7}{Item.11}%
+\contentsline {subsection}{¿Qué es un .ISO?}{7}{Item.12}%
+\contentsline {subsection}{Indicar las características de los .ISO}{8}{Item.13}%
+\contentsline {subsection}{¿Cómo se puede conseguir un .ISO?}{8}{Item.14}%
+\contentsline {section}{Conclusión}{8}{section*.9}%
+\contentsline {section}{\large \textbf {Referencias}}{9}{section*.10}%

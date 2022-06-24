@@ -1,0 +1,287 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib, helv]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\usepackage{gensymb}
+%\usepackage{titling}
+\let\apasubparagraph\subparagraph
+\let\subparagraph\paragraph
+\usepackage[compact]{titlesec}
+\let\subparagraph\apasubparagraph
+\usepackage{hyperref}
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+\graphicspath{{./images/}}
+\titleformat{\section}{\normalfont\large\bfseries}{\thetitle. \quad }{0pt}{}[{ \titlerule[0.8pt]}]
+\titleformat{\subsection}{\normalfont\bfseries}{}{}{}[]
+
+
+\usepackage[os=win]{menukeys}
+\usepackage{fontawesome}
+\makeatletter
+\tw@make@key@box{OS@mac}{\faApple}
+\tw@make@key@box{OS@win}{\faWindows}
+\tw@make@key@macro*{\OS}
+\tw@make@key@box{capslock@win}{\textsf{CapsLock}}
+\tw@make@key@box{capslock@mac}{\textsf{caps lock}}
+\makeatother
+
+% Portada
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \LARGE Laboratorio \#10\\
+    \vskip2cm
+    \large Diego Quirós Artiñano \\
+    Universidad Nacional de Costa Rica \\
+    EIF-202: Soporte Técnico \\ 
+    Carolina Gómez Fernández \\
+    12 de junio, 2022 \\
+    \vfill
+    \includegraphics[width = 0.4\textwidth]{../../../UNAImage/UNA.png} \\
+    \vfill
+    \vfill
+    % (autores separados, consultar al docente)
+    % Manera oficial de colocar los autores:
+    %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
+\end{titlepage}
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\addto\captionsspanish{
+    \renewcommand*\contentsname{\largeÍndice}
+}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Figuras
+% \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+% \listoffigures
+% \newpage
+%     % Tablas
+% \renewcommand{\listtablename}{\largeÍndice de tablas}
+% \listoftables
+% \newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+%------------------------------------------------------------------------------------
+\section*{Introducción}
+\phantomsection
+\addcontentsline{toc}{section}{Introducción}
+En este laboratorio se va a explorar diferentes medidas de seguridad de datos de la computadora, desde las configuraciones de seguridad, como backups y hasta ataques no deseados.
+
+%------------------------------------------------------------------------------------
+\section*{Configuración}
+\phantomsection
+\addcontentsline{toc}{section}{Configuración}
+
+% Test of capslock: \keys{\capslock}, \keys{\capslockwin}, \keys{\capslockmac}, \capslock, \capslockwin, \capslockmac
+
+% \strut
+
+% Test of OS key: \keys{\OS}, \keys{\OSwin}, \keys{\OSmac}, \OS, \OSwin, \OSmac
+
+\begin{enumerate}
+    \addcontentsline{toc}{subsection}{¿Cómo acceder a la configuración de Windows?}
+    \item \textbf{¿Cómo acceder a la configuración de Windows?} 
+    Para acceder las configuraciones normales del sistema presione \keys{\OS} y escriba <<configuración>> o si el sistema está en inglés <<settings>> (o traducción a cualquier lenguaje que esté usando). Otras configuraciones que se puede hacer se puede meter al panel de control y eso se puede ingresar haciendo click derecho en el logo \OS \space y dándole al panel de control.
+
+    \addcontentsline{toc}{subsection}{¿Qué recomendaciones le daría a un usuario para proteger al máximo su privacidad?}
+    \item \textbf{¿Qué recomendaciones le daría a un usuario para proteger al máximo su privacidad?} Una vez en los <<settings>> se puede seguir los pasos de \maskCitet{PrivacyWin} en el cual menciona varias cosas por buscar y apagar o borrar en las configuraciones (más que todo porque a windows le gusta mandar muchos reportes a Microsoft)
+    \begin{itemize}
+        \item Apagar el ad tracking en la parte de \menu{Settings > Privacy > General}
+        \item Apagar los servicios de localización en \menu{Settings > Privacy > Location} o seleccionar los servicios que quiere que puedan utilizarlo
+        \item Apagar el Timeline en la parte de actividad y que mande los reportes a Microsoft \menu{Settings > Privacy > Activity History}
+        \item Apagar Cortana si su versión lo tiene
+        \item Use una cuenta local en vez de la que viene conectada a Microsoft (busque cuentas en las configuraciones)
+        \item Cambiar los permisos de las aplicaciones específicas
+        \item Apagar la parte de diagnóstico y retroalimentación \menu{Settings > Privacy > Diagnostics \& feedback}
+        \item Borrar el Microsoft's Privacy Dashboard para eliminar el historial de búsquedas y uso
+    \end{itemize}
+    Otras cosas que se pueden usar para asegurar privacidad al estar en linea es usar algún programa antivirus como McAfee o Avast y/o una VPN (virtual private network) como NordVPN 
+
+    \addcontentsline{toc}{subsection}{Cree un pequeño manual explicando los diferentes componentes de la configuración (qué es, para qué sirve, componentes)}
+    \item \textbf{Cree un pequeño manual explicando los diferentes componentes de la configuración (qué es, para qué sirve, componentes)}  \textit{Nota: este manual va a estar diseñado conforme al menú de las configuraciones en Windows 11, que es la versión que uso actualmente, pero hay algunos aspectos similares con Windows 10}
+    \begin{itemize}
+        \item Sistema: Esto se pueden ver configuraciones variadas generales de varios componentes de la computadora (monitores, sonido, notificaciones, batería, almacenamiento).
+        \item Bluetooth y dispositivos: En esta sección es donde puede conectar dispositivos periféricos como mouse, teclado, scanners, impresoras y dispositivos por Bluetooth como audífonos y celulares, etc.
+        \item Redes e internet: es para ver las conecciones de internet que tiene guardadas y a cual está actualmente conectada.
+        \item Personalización: aquí puede cambiar el fondo de pantalla y los temas y colores de Windows.
+        \item Apps: Aquí puede encontrar los permisos de varias aplicaciones.
+        \item Cuentas: Aquí puede modificar las cuentas registradas con su computadora y usuarios también.
+        \item Lenguaje y tiempo: Aquí puede modificar la hora de su computadora, al igual que las varias lenguas que tiene instalado su computadora (e.g. aquí se viene para descargar nuevos lenguajes como decir español en una computadora que por defecto viene con inglés).
+        \item Juegos (Gaming): Para hacer modificaciones para rendimiento de computadora cuando está jugando.
+        \item Accesibilidad: Aquí es donde se puede meter para cambiar que las cosas se vean más grandes, o de diferentes colores para los daltónicos o hasta narradores para los de dificultades visuales, o subtítulos para los de dificultades de oído.
+        \item Privacidad y seguridad: Para hacer cambios al sistema de seguridad como los que previamente se comentaron.
+        \item Windows Update: para revisar nuevos updates al sistema operativo como actualizaciones de seguridad.
+    \end{itemize}
+    
+
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+\section*{Modo recuperación}
+\phantomsection
+\addcontentsline{toc}{section}{Modo recuperación}
+
+\addcontentsline{toc}{subsection}{¿Qué se puede hacer en el modo recuperación?}
+\textbf{¿Qué se puede hacer en el modo recuperación?}
+
+Funciona para recuperar información o restablecer un \textit{backup} después de que ocurra un problema:
+\begin{itemize}
+    \item El equipo no funciona bien con una actualización reciente, entonces se puede restablecer a antes de la actualización
+    \item El equipo no sirve después de modificar o instalar algo, entonces se puede recuperar
+    \item El equipo no inicia
+    \item Se vuelve a instalar el sistema operativo si no hay unidad de recuperación o el restablecimiento no sirvió
+    \item Devolver el sistema operativo a lo que era antes (no necesariamente ocurrió un fallo)
+    \item Sospechas de algún virus entonces se restablece
+\end{itemize}
+
+%------------------------------------------------------------------------------------
+\section*{Pantalla azul de la muerte}
+\phantomsection
+\addcontentsline{toc}{section}{Pantalla azul de la muerte}
+
+\begin{enumerate}
+    \addcontentsline{toc}{subsection}{¿Qué le puede recomendar a un usuario si le sale la pantalla azul de la muerte?}
+    \item \textbf{¿Qué le puede recomendar a un usuario si le sale la pantalla azul de la muerte?}
+    Las pantallas azules deberían ser sumamente extrañas o no existes porque implican un error crítico con el sistema operativo y por eso tuvo que reiniciarse. Según este un artículo de Insider, \maskCitet{BlueScreenOfDeathFix} propone 7 maneras de arreglar el posible error que pasó dado a que los códigos de errores normalmente no son de ayuda.
+    \begin{itemize}
+        \item Empezar a borra el software no necesario por el sistema que normalmente está corriendo cuando le da la pantalla azul, puede ser una incompatibilidad que está dando el error
+        \item Se puede revisar si es una memoria defectuosa, para esto se puede correr el <<Windows Memory Diagnostic>> después del reinicio buscar los resultados en \menu{Event Viewer > Windows Logs > Windows Diagnostic}
+        \item Similarmente puede ser un error del disco duro dirigirse a \menu{This PC > Disco Duro (normalmente C, pero puede tener varios) > Properties > Tools > Error checking > Check}
+        \item Menciona que es normalmente un error de hardware que de software entonces que después de revisar lo anterior puede continuar desinstalando las impresoras, scanners, almacenamiento externo y otros aparatos periféricos, si traen software como drivers para que funcionen desinstalar eso también (e.g. las impresoras Epson traen un montón de aplicaciones para actualización de dirvers y otras cosas, después de quitar la impresora del sistema, desinstale los programas que instala Epson)
+        \item Revise las tarjetas de expansión (audio, gráficas, etc.) si alguna causa errores entonces remplazar
+        \item Si la pantalla azul ocurre intentando de hacerle un update a un programa de Windows entonces corra el SetupDiag, para ver si este encuentra una razón más específica de porque está ocurriendo al hacer update
+        \item Si nada sirve vuela a instalar Windows, ya sea con la un usb booteable e instalar desde cero o hacerle un reset a la computadora. \textit{Nota mía: En las configuraciones existe la opción de resetear pero mantener los archivos, pero si por casualidad algo entre eso le está causando la pantalla azul recomendaría hacer un backup de lo más necesario y hacer una instalación de cero.}
+    \end{itemize}
+    
+    El artículo menciona que también puede comprar una computadora nueva sea el caso que sea muy frecuente las pantallas azules.
+
+    \addcontentsline{toc}{subsection}{¿Cuáles son los mensajes más frecuentes de la pantalla azul de la muerte?}
+    \item \textbf{¿Cuáles son los mensajes más frecuentes de la pantalla azul de la muerte?}
+    Según \cite{CommonErrorCodes}, los errores más frecuentes son:
+    \begin{itemize}
+        \item CRITICAL\_PROCESS\_DIED
+        \item SYSTEM\_THREAD\_EXCEPTION\_NOT\_HANDLED
+        \item IRQL\_NOT\_LESS\_OR\_EQUAL
+        \item VIDEO\_TDR\_TIMEOU\_DETECTED
+        \item PAGE\_FAULT\_IN\_NONPAGED\_AREA
+        \item SYSTEM\_SERVICE\_EXCEPTION
+        \item DPC\_WATCHDOG\_VIOLATION
+    \end{itemize}
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+\section*{Virus/Antivirus}
+\phantomsection
+\addcontentsline{toc}{section}{Virus/Antivirus}
+
+%TODO
+
+\begin{enumerate}
+    \addcontentsline{toc}{subsection}{¿Qué es un virus informático?}
+    \item \textbf{¿Qué es un virus informático?}
+    Según \cite{virusInfo}, es un programa que busca alterar algún funcionamiento de la computadora. Puede ser dañino, como borrar archivos o solamente molestos. Puede tener varios métodos de infección como por ejemplo algún mensaje en una red social, archivos que se bajan o hasta una llave malla, disco o similar.
+    
+    \addcontentsline{toc}{subsection}{Historia de los virus}
+    \item \textbf{Historia de los virus}
+    Según \cite{computerVirusHistory}, han habido varios viruses en la historia con varios propósitos:
+    \begin{itemize}
+        \item El primero fue el <<Creeper System>> que era un virus auto-replicante que llenaba un disco duro hasta que la computadora no pudiera operar.
+        \item El primero para MS-DOS fue el <<Brain>> que sobrescribía el sector de arranque del disco floppy, originalmente para proteger de copias.
+        \item El primer virus que realmente se expandió fue <<The Morris>> este accesaba vulnerabilidades y contraseñas débiles para expandirse. Originalmente creado para medir el tamaño del internet, pero fue mal codificado y empezó a interferir con operaciones normales.
+    \end{itemize}
+    
+    \addcontentsline{toc}{subsection}{¿Cuáles han sido los virus más dañinos?}
+    \item \textbf{¿Cuáles han sido los virus más dañinos?}
+    Según \cite{DangerousComputerViruses} los viruses más dañinos han sido:
+    \begin{enumerate}
+        \item ILOVEYOU: correo que parecía ser una declaración de amor y se enviaba a tus contactos y empezaba a sobrescribir archivos hasta llegando a hacer que no se pudiera arrancar la computadora (aproxima daños de hasta 10 billones de dólares).
+        \item CodeRed: infectaba y se reproducía atacando los recursos de las computadoras, después se abría desde un acceso remoto. Intencionalmente para atacar usuarios de IIS y hasta llego a atacar la página de la casa blanca de EEUU.
+        \item Melissa: documento de word infectado con supuestas contraseñas a sitios de adultos que se enviaba a los contactos del usuario y causo disrupciones masivas.
+        \item Storm Trojan: programa que infectaba al abrir un correo con títulos como 230 muertos en en la tormenta de Europa, descargaba wincom32, pasaba la información y se volvía a enviar a los contactos.
+        \item Sasser: accesaba el Servicio de autoridad local para subsistemas y hacía que las máquinas se pusieran lentas y hasta generar un crash (pantalla azul), aerolíneas y gobiernos fueron cerrados por este virus.
+    \end{enumerate}
+    
+    \addcontentsline{toc}{subsection}{¿Qué es malware, virus, gusanos, spyware, troyanos, ransomware, scareware?}
+    \item \textbf{¿Qué es malware, virus, gusanos, spyware, troyanos, ransomware, scareware?} 
+    La mayoría basados en \cite{malwareTypes1}:
+    \begin{itemize}
+        \item Malware: software con propósito de malicia que puede aparecer de maneras inocentes como anuncios, links, correos, etc.
+        \item Virus: como previamente mencionado programa con propósito de hacer que tenga un funcionamiento fuera de lo normal en una computadora. Puede transmitirse por si solo.
+        \item Gusanos: A diferencia de los viruses que atacan con ayuda de otros programas los gusanos buscan debilidades conocidas.
+        \item Toryanos: pretende ser algo legitimo pero en realidad es malware. No se reproduce como los gusanos o viruses sino utiliza la ingeniería social para que la gente comparta y descargue. Utilizados normalmente para agarrar información o modificar algo en las computadoras.
+        \item Ransomware: Malware que se utiliza para encriptar la información de una computadora tenerlo como rehén hasta que unas demandas normalmente dinero se cumplan.
+        \item Spyware: Malware usado para monitorear la actividad de los usuarios como las teclas que presionan o donde visitan.
+        \item Según \cite{scareware}, Scareware: es malware que se descarga desde anuncios que intentan asustar a la persona que tiene que instalar algo, como el típico, tenes 7 virus tenes que instalar tal cosa. Expone al usuario a robo de información valiosa.
+    \end{itemize}
+    
+    
+    \addcontentsline{toc}{subsection}{Realizar una lista de los antivirus más utilizados}
+    \item \textbf{Realizar una lista de los antivirus más utilizados}
+    Según \cite{antivirus}
+    \begin{itemize}
+        \item General: Bitdefender Antivirus Plus
+        \item Para Windows: Norton 360 with LifeLock
+        \item Para Mac: Webroot SecureAnywhere for Mac
+        \item Para varios dispositivos: McAfee Antivirus Plus
+        \item Mejor Premium: Tren Micro Antivirus+ Security
+        \item Escaneo de Malware: Malwarebytes
+    \end{itemize}
+    
+    \addcontentsline{toc}{subsection}{Realizar una lista de los antimalware más utilizados}
+    \item \textbf{Realizar una lista de los antimalware más utilizados}
+    \begin{itemize}
+        \item Bitdefender Antivirus Plus
+        \item Avast One Essential
+        \item Bitdefender Total Security
+        \item Notron 360 Deluxe
+        \item Check Point ZoneAlarm Anti-Ransomware
+        \item Webroot SecureAnywhere Antivirus
+        \item McAfee Total Protection
+        \item Norton 360 with LifeLock Select
+        \item Malwarebytes free
+    \end{itemize}
+    
+    \addcontentsline{toc}{subsection}{¿Cuál es la mejor manera de tener su equipo libre de virus? Justificar}
+    \item \textbf{¿Cuál es la mejor manera de tener su equipo libre de virus? Justificar}
+    Aparte de abstenerse de usar cualquier dispositivo, puede ser que en la vida se tope con uno que otro malware. La mejor manera de asegurarse de no toparse con nada es no meterse a ningún sitio/correo/archivo que se vea extraño. No darle permiso a sitios y no darle que si a los anuncios. Para tener extra protección además se puede comprar tanto un antivirus como antimalware, pero como se puede ver parece ser que Bitdefender tiene el mejor en general. El software antivirus/malware es un extra no lo hace inmune a ataques, no haga nada que considere que es extraño en linea, para no descargar programas no queridos. Además de poner visualizar extensiones en el explorador de archivos porque he escuchado que a veces pueden usar .exe pero tener el icono de cualquier otro archivo. Finalmente, tenga las actualizaciones de seguridad al día porque estos se enfocan en arreglar debilidades en el sistema.
+\end{enumerate}
+
+%------------------------------------------------------------------------------------
+\section*{Conclusión}
+\phantomsection
+\addcontentsline{toc}{section}{Conclusión}
+Es importante saber como configurar correctamente la computadora a nuestras diversas necesidades y seguridad. Si aparece una pantalla azul no es el fin del mundo, pero si ocurre frecuentemente mejor verificar usted si como persona se siente cómoda abriendo y revisando diferentes componentes o con un experto. Hacer backups tanto en discos duros como en las recuperaciones de Windows por si acaso ocurren problemas. Finalmente, cuidarse de los viruses y malware. En general el propósito del laboratorio es exponernos a muchas de las cosas que pueden y muy probablemente conforme va pasando el tiempo pueden pasar, tanto por mejoras en ataques como en uso de la vida útil de los componentes de la computadora.
+
+
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{ref}
+
+\end{document}

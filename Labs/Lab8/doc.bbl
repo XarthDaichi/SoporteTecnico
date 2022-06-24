@@ -1,0 +1,137 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{5 Best and Free Folder to ISO Converters for Windows
+  11/10}}}{%
+\APACcitebtitle {{5 Best and Free Folder to ISO Converters for Windows
+  11/10}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+ISOConverters}
+\APACinsertmetastar {%
+ISOConverters}%
+\APACrefbtitle {{5 Best and Free Folder to ISO Converters for Windows 11/10}.}
+  {{5 Best and Free Folder to ISO Converters for Windows 11/10}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{01}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://gearupwindows.com/folder-to-iso-converters}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Download Usb Flash Drive - Best Software {\&} Apps}}}{%
+\APACcitebtitle {{Download Usb Flash Drive - Best Software {\&} Apps}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+SoftwareUSBFlashDrive}
+\APACinsertmetastar {%
+SoftwareUSBFlashDrive}%
+\APACrefbtitle {{Download Usb Flash Drive - Best Software {\&} Apps}.}
+  {{Download Usb Flash Drive - Best Software {\&} Apps}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://en.softonic.com/downloads/usb-flash-drive}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gavin%
+}{%
+Gavin%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+WhatIsAnISO}
+\APACinsertmetastar {%
+WhatIsAnISO}%
+\begin{APACrefauthors}%
+Gavin, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{What Is An ISO File (And How Do I Use Them)?}} {{What
+  Is An ISO File (And How Do I Use Them)?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{How-To Geek}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.howtogeek.com/356714/what-is-an-iso-file-and-how-do-i-open-one}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gemma%
+}{%
+Gemma%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+WhatIsABootableDrive}
+\APACinsertmetastar {%
+WhatIsABootableDrive}%
+\begin{APACrefauthors}%
+Gemma.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{10}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Beginner's Guide {$\vert$} What Is A Bootable USB Drive
+  - EaseUS}} {{Beginner's Guide {$\vert$} What Is A Bootable USB Drive -
+  EaseUS}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{EaseUS}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.easeus.com/system-to-go/what-is-bootable-usb-drive.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{ISO File Extension - What is an .iso file and how do I open
+  it?}}}{%
+\APACcitebtitle {{ISO File Extension - What is an .iso file and how do I open
+  it?}}}{%
+{\protect \APACyear {2012}}%
+}]{%
+FileExtension}
+\APACinsertmetastar {%
+FileExtension}%
+\APACrefbtitle {{ISO File Extension - What is an .iso file and how do I open
+  it?}} {{ISO File Extension - What is an .iso file and how do I open it?}}
+\newblock
+\APACrefYearMonthDay{2012}{{\APACmonth{02}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://fileinfo.com/extension/iso} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+nnamuhcs%
+}{%
+nnamuhcs%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+CreateABootableDriveWindows}
+\APACinsertmetastar {%
+CreateABootableDriveWindows}%
+\begin{APACrefauthors}%
+nnamuhcs.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\APACrefbtitle {{Create a Bootable USB Flash Drive}.} {{Create a Bootable USB
+  Flash Drive}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://docs.microsoft.com/en-us/windows-server-essentials/install/create-a-bootable-usb-flash-drive}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

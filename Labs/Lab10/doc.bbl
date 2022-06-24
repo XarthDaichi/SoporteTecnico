@@ -1,0 +1,206 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{8 Most Common Types of Malware Attacks}}}{%
+\APACcitebtitle {{8 Most Common Types of Malware Attacks}}}{%
+{\protect \APACyear {2021}}%
+}]{%
+malwareTypes1}
+\APACinsertmetastar {%
+malwareTypes1}%
+\APACrefbtitle {{8 Most Common Types of Malware Attacks}.} {{8 Most Common
+  Types of Malware Attacks}.}
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{10}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://arcticwolf.com/resources/blog/8-types-of-malware}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gralla%
+}{%
+Gralla%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+PrivacyWin}
+\APACinsertmetastar {%
+PrivacyWin}%
+\begin{APACrefauthors}%
+Gralla, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{How to protect your privacy in Windows 10}} {{How to
+  protect your privacy in Windows 10}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computerworld}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.computerworld.com/article/3622001/how-to-protect-privacy-windows-10.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Johnson%
+}{%
+Johnson%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+BlueScreenOfDeathFix}
+\APACinsertmetastar {%
+BlueScreenOfDeathFix}%
+\begin{APACrefauthors}%
+Johnson, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{10}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{How to fix a Blue Screen of Death on a Windows PC}}
+  {{How to fix a Blue Screen of Death on a Windows PC}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Business Insider}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.businessinsider.com/blue-screen-of-death-windows}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Proemba%
+}{%
+Proemba%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+antivirus}
+\APACinsertmetastar {%
+antivirus}%
+\begin{APACrefauthors}%
+Proemba, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{05}}}{}.
+\newblock
+\APACrefbtitle {{The 7 Best Antivirus Software of 2022}.} {{The 7 Best
+  Antivirus Software of 2022}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.investopedia.com/best-antivirus-software-5084503}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Top 10 Most Destructive Computer Viruses of All Time
+  {$\vert$} Advanced Computer Consulting}}}{%
+\APACcitebtitle {{Top 10 Most Destructive Computer Viruses of All Time
+  {$\vert$} Advanced Computer Consulting}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+DangerousComputerViruses}
+\APACinsertmetastar {%
+DangerousComputerViruses}%
+\APACrefbtitle {{Top 10 Most Destructive Computer Viruses of All Time {$\vert$}
+  Advanced Computer Consulting}.} {{Top 10 Most Destructive Computer Viruses of
+  All Time {$\vert$} Advanced Computer Consulting}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.advancedcpc.com/blog/top-10-most-destructive-computer-viruses-all-time}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Troubleshoot blue screen errors}}}{%
+\APACcitebtitle {{Troubleshoot blue screen errors}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+CommonErrorCodes}
+\APACinsertmetastar {%
+CommonErrorCodes}%
+\APACrefbtitle {{Troubleshoot blue screen errors}.} {{Troubleshoot blue screen
+  errors}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://support.microsoft.com/en-us/sbs/windows/troubleshoot-blue-screen-errors-5c62726c-6489-52da-a372-3f73142c14ad}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Uhde%
+}{%
+Uhde%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+computerVirusHistory}
+\APACinsertmetastar {%
+computerVirusHistory}%
+\begin{APACrefauthors}%
+Uhde, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{07}}}{}.
+\newblock
+\APACrefbtitle {{A short history of computer viruses}.} {{A short history of
+  computer viruses}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sentrian.com.au/blog/a-short-history-of-computer-viruses}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Virus inform{\ifmmode\acute{a}\else\'{a}\fi}ticos y
+  antivirus: {\textquestiondown}Que es un virus
+  inform{\ifmmode\acute{a}\else\'{a}\fi}tico?}}}{%
+\APACcitebtitle {{Virus inform{\ifmmode\acute{a}\else\'{a}\fi}ticos y
+  antivirus: {\textquestiondown}Que es un virus
+  inform{\ifmmode\acute{a}\else\'{a}\fi}tico?}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+virusInfo}
+\APACinsertmetastar {%
+virusInfo}%
+\APACrefbtitle {{Virus inform{\ifmmode\acute{a}\else\'{a}\fi}ticos y antivirus:
+  {\textquestiondown}Que es un virus
+  inform{\ifmmode\acute{a}\else\'{a}\fi}tico?}} {{Virus
+  inform{\ifmmode\acute{a}\else\'{a}\fi}ticos y antivirus:
+  {\textquestiondown}Que es un virus
+  inform{\ifmmode\acute{a}\else\'{a}\fi}tico?}}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://edu.gcfglobal.org/es/virus-informaticos-y-antivirus/que-es-un-virus-informatico/1}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{What is Scareware?}}}{%
+\APACcitebtitle {{What is Scareware?}}}{%
+{\protect \APACyear {2021}}%
+}]{%
+scareware}
+\APACinsertmetastar {%
+scareware}%
+\APACrefbtitle {{What is Scareware?}} {{What is Scareware?}}
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{05}}}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.forcepoint.com/cyber-edu/scareware}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

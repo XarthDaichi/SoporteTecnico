@@ -80,46 +80,163 @@
 \section*{Introducción}
 \phantomsection
 \addcontentsline{toc}{section}{Introducción}
-
+En este documento se van a ver diferentes aspectos de uso y mantenimiento de los discos duros.
 %------------------------------------------------------------------------------------
 \section*{Preguntas}
 \phantomsection
 \addcontentsline{toc}{section}{Pregutnas}
 
 \begin{enumerate}
+    \addcontentsline{toc}{subsection}{1}
     \item ¿Qué es el sector de arranque o MBR? (Master Boot Record).
     
+    Según \cite{MBRDefinition} "el sector de arranque es el primer sector de cualquier disco duro o disquete. Es el sector que le indica donde se encuentra el sistema operativo para añadirlo al almacenamiento o a la RAM. También se puede conocer como un sector de particiones o tabla maestra de particiones, porque mantiene una tabla de donde y como están formateadas las particiones en el disco duro. Incluye un programa que hace que donde tenga guardado el sistema operativo se arranque en la RAM para que el sistema operativo empiece."
 
+    En otras palabras es el sector de las particiones que se encarga de asegurarse que todo trabaje y esté donde debería, además de dejar que la computadora sea utilizable.
     
+    \addcontentsline{toc}{subsection}{2}
     \item Según la evolución del almacenamiento, explique las tecnologías
     \begin{enumerate}
         \item PMR o CMR
+        
+        Según \cite{SMRCMPPMR} El proceso de escritura y lectura PMR/CMR (Perpendicular/Conventional Magnetic Recording), tiene dos cabezales (escritura y lectura) y se escribe dos franjas de datos (principio y final) y todas son independientes de las otras entonces se puede reescribir. Es más estable entonces le favorece al comprador.
+        
         \item SMR
+        
+        Según \cite{SMRCMPPMR} El proceso de escritura y lectura SMR (Shingled Magnetic Recording) o <<grabación magnética escalonada>> es un proceso similar al CMR, pero no hay espacio entre las franjas de datos, esto deja que haya más datos por $cm^2$ sea mayor, pero causa el problema que la sobreescritura puede corrumpir los datos. Para solucionar esto la reescritura ocurre en otro lugar y en momentos de inactividad se reordena. Más capacidad de datos y menos velocidad, favorece al vendedor.
+        
         \item HAMR
+        
+        Según \cite{HAMR} (Heat Assisted Magnetic Recording) o <<grabación magnética asistida por calor>> es una manera de incluir más datos o bits por pulgada cuadrada del disco duro, pero con estabilidad para reesribir bits singulares cambiándole la polaridad magnética. Esto lo hace con un laser que calienta un punto y el imán cambia la polaridad, esto hace que solo un bit se cambie y mantiene la estabilidad del disco entero (menos posibilidad de corrupción que el SMR). El calentamiento y enfriamiento ocurre en un nanosegundo lo cuál mantiene el disco en temperatura ambiental.
+        
         \item BPMR
+        
+        Según \cite{BPMREasy} el BPMR (Bit-patterned Magnetic Recording) explica de una manera más sencilla de entender es un método inovador que deja almacenar aún más bits por pulgada cuadrada que el HAMR, esto lo hace poniendo cada bit en <<islas>> elevadas (le aproximaba en el 2016 10-15 años para que estuviera en el mercado). Según \cite{BPMRFutureUse} Seagate planea que para el 2030 los discos duros sean aún más rápdios y alcanzar almacenamientos de 130TB usando BPMR. La teoría de lo que investigé sale de \cite{BPMRResearch}.
+
     \end{enumerate}
+    
+    \addcontentsline{toc}{subsection}{3}
     \item ¿En qué unidad se mide la velocidad de los discos duros y cuáles son las velocidades más comunes actualmente?
+    
+    Según \cite{DiscosDuros} está la velocidad del disco como tal que se mide en revoluciones por minuto, la velocidad de escritura y lectura se miden en MBps o hasta Gbps (Mega-bytes por segundo o Giga-bytes por segundo) la velocidad de búsqueda y latencia que se mide en microsegundos o hasta nanosegundos. \cite{TomsHardwareHDD} dice que el mejor disco duro en el mercado en el 2022  es el WD My Passport, haciendo una búsqueda rápida en línea y llegué a tres resultados diferentes, según el manufacturador del producto Western Digital (\cite{WesternDigitalMyPassport}) dicen que la velocidad de escritura y lectura es de 5Gbps, pero \cite{MyPassportSpeed} llega a velocidades aproximadas de 60MBps, con excepciones que llegaban hasta como 200+MBps y bajaba a 20MBps, y \cite{PCMagMyPassport} hizo prubas que le aproximan 120MBps. Con respecto a la velocidad del disco \cite{MyPassportSpeed} dice ser 5400rpm y lo mismo está escrito por \cite{PCMagMyPassport}. No encontré velocidades de latencia.
+
+    \addcontentsline{toc}{subsection}{4}
     \item Indique las diferencias entre SATA 1, SATA 2 y SATA 3
-    \item ¿Qué es RAID (\textit{Redundant Array of Independent Disks}), es decir, "conjunto redundante de discos independientes"?. Explique los tipos de RAID:
+    
+    Según \cite{SATA123} la diferencia entre los 3 son las veolcidades, 1.5Gb/s, 3Gb/s y 6Gb/s respectivamente. Sus interfaces soportaban un ancho de banda de 150MB/s, 300MB/s y 600MB/s respectivamente. SATA II es compatible con la interfaz de SATA I y la de SATA III es compatible con la de SATA II y I, pero claramente con reducciones de velocidad por la limitación del puerto.
+
+    \addcontentsline{toc}{subsection}{5}
+    \item ¿Qué es RAID (\textit{Redundant Array of Independent Disks}), es decir, <<conjunto redundante de discos independientes>>? Explique los tipos de RAID:
+    
+    Según \cite{RAID} es tecnología de discos virtuales que deja combinar varios discos duros físicos en uno. Crea redundancia, incrementa el rendimiento, o los dos. \textbf{NO ES UN REMPLAZO PARA EL BACKUP}. Utiliza <<striping>> que es dividir la data entre varios discos, <<mirroring>> que es copiar o hacer espejo de la data en varios discos y finalmente <<parity>> que es calcular un valor para reconstruir la data (también se conoce como <<checksum>>) 
     \begin{enumerate}
         \item RAID 0
+        \begin{itemize}
+            \item Método stripping
+            \item Separada equivalentemente entre varios discos
+            \item Gran espacio y velocidad más rápida
+            \item No hay redundancia
+            \item Si uno de los discos falla causa un error de conjunto
+        \end{itemize}
         \item RAID 1
+        \begin{itemize}
+            \item Método mirroring
+            \item Tiene varios discos con la misma información
+            \item Fallo de un disco no causa pérdida de información
+            \item La velocidad y el tamaño están limitadas por el más lento y el más pequeño
+            \item Solo un disco se necesita para recuperar la información
+        \end{itemize}
         \item RAID 5
-        \item RAID 6
+        \begin{itemize}
+            \item Usa método stripped y parity
+            \item Data dividida equivalente entre tres o más discos y parity dividida entre discos
+            \item Espacio grande, velocidad rápida y redundancia
+            \item Tamaño del conjunto es menor por el parity
+            \item El fallo de información de un disco se va a reconstruir
+        \end{itemize}
+        \item RAID 6 (\cite{RAIDToo}): RAID 5 Extensión
+        \begin{itemize}
+            \item Usa método stripped y parity doble
+            \item Data dividida equivalentemente entre 4 o más discos, parity dividida entre discos
+            \item Espacio grand, velocidad rápida, y redundancia
+            \item Velocidad menor que el RAID 5
+            \item Si fallan 2 discos aún se reconstruye todo y no hay pérdida de información
+        \end{itemize}
         \item RAID 10
+        \begin{itemize}
+            \item RAID 1 + 0, significa que usa el método stripped en un conjunto de subconjuntos que usan el método mirrored
+            \item 4 o más discos se dividen un espejo dividido de la información
+            \item Gran espacio, mayor velocidad que el RAID 1 y más redundancia que el RAID 0
+            \item No hay parity
+            \item Solo un discos en un conjunto copiado puede fallar
+        \end{itemize}
     \end{enumerate}
+    
+    \addcontentsline{toc}{subsection}{6}
     \item ¿Cómo se hace para conectar un disco maestro y otro esclavo cuando se tienen discos PATA? ¿Cómo se colocan los jumpers?
-    \item Describa los pasos para particionar un disco desde Windows. Cite aplicaciones para hacer particionando
-    \item ¿Cuáles son los pasos para desfragmentar un disco duro?
-    \item Explique los pasos para formatear un disco
-    \item Explique brevemente las siguientes características del disco
+    
+    Según \cite{PATA} los conectores PATA usaban los <<flat ribbon cables>>.
+    \begin{itemize}
+        \item Tarjeta madre o controlador de discos duros: si viene con colores conectar el azul aquí, si no viene con colores conectar el conector del final que está más lejos del medio de la tira.
+        \item Maestro: Si tiene color conectar el negro, si no entonces conectar el conector del final que está más cerca del medio de la tira.
+        \item Esclavo: si tiene colores entonces colocar el conector gris, si no entonces conectar el conector del medio.
+    \end{itemize}
+    
+    \addcontentsline{toc}{subsection}{7}
+    \item Describa los pasos para particionar un disco desde Windows. Cite aplicaciones para hacer particionando (\cite{PartitionCreator})
+    
+    \begin{enumerate}
+        \item Abra el Disk Management
+        \item Seleccione el disco que quiere particionar
+        \item Para crear un espacio sin alocar se tiene que disminuir el de uno, entonces le da click derecho a la partición que quiere reducir, le da a disminuir volume (Shrink Volume) y le cambia el tamaño en MB al que desee
+        \item Para agregar este espacio a otra partición entonces tiene que hacer click derecho a la partición que desea aumentar y darle extender volumen (Extend Volume).
+        \item Para que el espacio desalocado se genere en una nueva partición le da click derecho a la partición desalocada y selecciona nuevo volumen simple (New Simple Volume)
+    \end{enumerate}
+
+    Para usar otros software para hacer particiones se puede ver esta página \cite{PartiSoft}.
+
+    \addcontentsline{toc}{subsection}{8}
+    \item ¿Cuáles son los pasos para desfragmentar un disco duro? (\cite{Defragmentation})
+    \begin{enumerate}
+        \item Presionar el botón de windows en el teclado y escribir <<defrag>> 
+        \item Puede presionar analizar para ver cuanto está analizado o directamente empezar el proceso de defragmentación dándole al botón de optimizar
+    \end{enumerate}
+
+    \addcontentsline{toc}{subsection}{9}
+    \item Explique los pasos para formatear un disco (\cite{Format})
+    
+    \begin{enumerate}
+        \item Ir a <<Disk Management>>
+        \item Seleccionar la partición o disco que quiere formatear, darle click derecho y darle a la opción de <<Format>>
+        \item Verificar si el <<File System>> es NTFS, sino lo pone como tal y le da Ok 
+    \end{enumerate}
+    
+    \addcontentsline{toc}{subsection}{10}
+    \item Explique brevemente las siguientes características del disco (\cite{DiscosDuros})
     \begin{enumerate}
         \item Tiempo medio de acceso
+        
+        Es el tiempo que le toma a la cabeza colocarse en la pista y en el sector indicado. Se le suma el tiempo de búsqueda medio, el de latencia rotacional medio y el tiempo de lectura/escritura.
+        
         \item Tiempo de lectura/escritura
+        
+        Es el tiempo que le toma al disco leer o escribir la información del disco.
+        
         \item Tiempo medio de búsqueda
+        
+        Tiempo que le toma a la aguja colocarse en la pista adecuada.
+
         \item Latencia Media
+        
+        Tiempo medio que le tarda a la cabeza colocarse en el sector requerido.
+        
         \item Velocidad de rotación
+        
+        Es la velocidad angular a la que giran los platos medida en revoluciones por minuto (rpm).
+        
         \item Tasa de transferencia
+         
+        Tasa de transferencia (para este tuve que buscar en otro sitio, \cite{TasaDeTransferencia})(throughput) es la cantidad de datos que logra transferir y se mide en Bits por segundo (bps).
     \end{enumerate}
 \end{enumerate}
 
@@ -127,7 +244,8 @@
 \section*{Conclusión}
 \phantomsection
 \addcontentsline{toc}{section}{Conclusión}
-\cite{cervantes1999}
+En este documento se aprendió sobre varios aspectos de uso y mantenimiento de un disco duro. Esto es para el fin de capacitarnos para una mejor habilidad de hacer soporte técnico, asumo que con el propósito principal siendo un sistema dado el nombre de la carrera, pero esencial para cualquier dispositivo con un disco duro.
+
 \newpage
 % Referencias
 \renewcommand\refname{\large\textbf{Referencias}}
